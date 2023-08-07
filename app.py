@@ -24,5 +24,6 @@ def index():
     db = get_db()
     cur = db.cursor()
     energy_drinks = cur.execute("SELECT brand, flavor, rating, description FROM energy_drinks").fetchall()
+    columns_headers = [key.capitalize() for key in energy_drinks[0].keys()]
     cur.close()
-    return render_template("index.html", energy_drinks=energy_drinks)
+    return render_template("index.html", energy_drinks=energy_drinks, columns_headers=columns_headers)
