@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Energy Drinks</title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
 </head>
 <body>
-<table>
+<table class="table table-sm table-responsive table-dark table-striped table-hover">
     <thead>
     <tr>
         {% for column_name in energy_drinks[0].keys() %}
-            <th>{{ column_name }}</th>
+            <th>{{ column_name.capitalize() }}</th>
         {% endfor %}
     </tr>
     </thead>
@@ -23,5 +24,6 @@
     {% endfor %}
     </tbody>
 </table>
+<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
 </body>
 </html>
