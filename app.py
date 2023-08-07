@@ -21,4 +21,8 @@ def close_db():
 
 @app.get("/")
 def index():
-    return render_template("index.html")
+    db = get_db()
+    cur = db.cursor()
+    energy_drinks = cur.execute("SELECT brand, flavor, rating, description FROM energy_drinks").fetchall()
+    cur.close()
+    return render_template("index.html", energy_drinks=energy_drinks)

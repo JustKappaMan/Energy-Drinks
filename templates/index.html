@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index Page</title>
+    <title>Energy Drinks</title>
 </head>
 <body>
-    <p>Index Page</p>
+<table>
+    <thead>
+    <tr>
+        {% for column_name in energy_drinks[0].keys() %}
+            <th>{{ column_name }}</th>
+        {% endfor %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for brand, flavor, rating, description in energy_drinks %}
+        <tr>
+            <td>{{ brand }}</td>
+            <td>{{ flavor }}</td>
+            <td>{{ rating }}</td>
+            <td>{{ description }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
 </body>
 </html>
