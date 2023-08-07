@@ -14,12 +14,11 @@
     </tr>
     </thead>
     <tbody>
-    {% for brand, flavor, rating, description in energy_drinks %}
+    {% for row in energy_drinks %}
         <tr>
-            <td>{{ brand }}</td>
-            <td>{{ flavor }}</td>
-            <td>{{ rating }}</td>
-            <td>{{ description }}</td>
+            {% for cell in row %}
+                <td>{{ cell }}</td>
+            {% endfor %}
         </tr>
     {% endfor %}
     </tbody>
