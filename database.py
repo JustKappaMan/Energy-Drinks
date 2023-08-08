@@ -17,5 +17,7 @@ def _close_db():
 
 def get_index_view_data():
     with (con := _get_db()):
-        energy_drinks = con.execute("SELECT brand, flavor, rating, description FROM energy_drinks").fetchall()
+        energy_drinks = con.execute(
+            "SELECT brand, flavor, rating, description FROM energy_drinks ORDER BY brand"
+        ).fetchall()
     return energy_drinks
