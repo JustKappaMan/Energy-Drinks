@@ -24,9 +24,10 @@
     <table class="table table-sm table-responsive table-dark table-striped table-bordered table-hover">
         <thead>
         <tr>
-            {% for column_header in columns_headers %}
-                <th>{{ column_header }}</th>
-            {% endfor %}
+            <th role="button" title="Sort by Brand" class="user-select-none">Brand</th>
+            <th>Flavor</th>
+            <th>Rating</th>
+            <th>Description</th>
         </tr>
         </thead>
         <tbody>
@@ -40,6 +41,7 @@
         </tbody>
     </table>
 </main>
+<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
 </body>
 </html>
