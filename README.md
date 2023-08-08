@@ -5,4 +5,6 @@
 ## License
 This project is licensed under the MIT License.
 ## Credits
-Big thanks to [JetBrains](https://www.jetbrains.com/community/opensource) for Open Source development license
+Big thanks to:
+* [JetBrains](https://www.jetbrains.com/community/opensource) for Open Source development license
+* [nawicon](https://www.flaticon.com/authors/nawicon) for [favicons](https://www.flaticon.com/free-icon/flash_2511629)
