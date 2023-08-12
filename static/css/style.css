@@ -1,4 +1,23 @@
-.clickable {
+table {
+    table-layout: fixed;
+}
+
+#brand-col {
+    width: 12em;
+    min-width: 12em;
+    user-select: none;
+    cursor: pointer;
+}
+
+#flavor-col {
+    width: 16em;
+    min-width: 16em;
+}
+
+#rating-col {
+    width: 8em;
+    min-width: 8em;
+    max-width: 8em;
     user-select: none;
     cursor: pointer;
 }

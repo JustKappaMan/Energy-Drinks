@@ -25,9 +25,9 @@
     <table class="table table-sm table-responsive table-dark table-striped table-bordered table-hover">
         <thead class="text-center">
         <tr>
-            <th class="clickable" title="Sort by Brand">Brand<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Sort icon" class="sort-icon"></th>
-            <th>Flavor</th>
-            <th class="clickable" title="Sort by Rating">Rating<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Sort icon" class="sort-icon"></th>
+            <th id="brand-col" title="Sort by Brand">Brand<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Sort icon" class="sort-icon"></th>
+            <th id="flavor-col">Flavor</th>
+            <th id="rating-col" title="Sort by Rating">Rating<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Sort icon" class="sort-icon"></th>
             <th>Description</th>
         </tr>
         </thead>
@@ -42,13 +42,13 @@
 
                 {# Rating #}
                 {% if row[2] %}
-                    <td data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
+                    <td class="text-center" data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
                 {% else %}
-                    <td data-rating="0">-</td>
+                    <td class="text-center" data-rating="0">-</td>
                 {% endif %}
 
                 {# Description #}
-                <td>{{ row[3] or '-' }}</td>
+                <td class="text-center">{{ row[3] or '-' }}</td>
             </tr>
         {% endfor %}
         </tbody>
