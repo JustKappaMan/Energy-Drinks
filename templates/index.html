@@ -14,6 +14,7 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="{{ url_for('static', filename='img/favicons/browserconfig.xml') }}">
     <meta name="theme-color" content="#000000">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
 </head>
 <body class="bg-dark px-5">
@@ -22,12 +23,12 @@
 </header>
 <main>
     <table class="table table-sm table-responsive table-dark table-striped table-bordered table-hover">
-        <thead>
+        <thead class="text-center">
         <tr>
-            <th role="button" title="Sort by Brand" class="text-center user-select-none">Brand</th>
-            <th class="text-center">Flavor</th>
-            <th role="button" title="Sort by Rating" class="text-center user-select-none">Rating</th>
-            <th class="text-center">Description</th>
+            <th class="clickable" title="Sort by Brand">Brand<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Sort icon" class="sort-icon"></th>
+            <th>Flavor</th>
+            <th class="clickable" title="Sort by Rating">Rating<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Sort icon" class="sort-icon"></th>
+            <th>Description</th>
         </tr>
         </thead>
         <tbody>

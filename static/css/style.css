@@ -1,0 +1,10 @@
+.clickable {
+    user-select: none;
+    cursor: pointer;
+}
+
+.sort-icon {
+    width: 1em;
+    height: 1em;
+    margin-left: .25em;
+}
