@@ -5,13 +5,13 @@
           tableHeaders = document.querySelectorAll('th'),
           tableRows = [...tableBody.querySelectorAll('tr')];
 
-    let isSortedByBrandAlphabetically = false,
+    let isSortedByBrandAlphabetically = true,
         isSortedByRatingInDescendingOrder = false;
 
     tableHeaders[0].addEventListener('click', () => {
         if (isSortedByBrandAlphabetically) {
             /* Reverse alphabetical order */
-            tableRows.sort((a, b) => b.children[0].innerText.localeCompare(a.children[0].innerText));
+            tableRows.reverse();
             isSortedByBrandAlphabetically = false;
             isSortedByRatingInDescendingOrder = false;
         } else {
@@ -28,7 +28,7 @@
     tableHeaders[2].addEventListener('click', () => {
         if (isSortedByRatingInDescendingOrder) {
             /* Ascending order */
-            tableRows.sort((a, b) => a.children[2].dataset.rating - b.children[2].dataset.rating);
+            tableRows.reverse();
             isSortedByRatingInDescendingOrder = false;
             isSortedByBrandAlphabetically = false;
         } else {
