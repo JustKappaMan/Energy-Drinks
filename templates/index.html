@@ -32,25 +32,25 @@
         </tr>
         </thead>
         <tbody>
-        {% for row in energy_drinks %}
+        {%- for row in energy_drinks %}
             <tr>
-                {# Brand #}
+                {#- Brand #}
                 <td>{{ row[0] }}</td>
 
-                {# Flavor #}
+                {#- Flavor #}
                 <td>{{ row[1] }}</td>
 
-                {# Rating #}
-                {% if row[2] %}
-                    <td class="text-center" data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
-                {% else %}
-                    <td class="text-center" data-rating="0">-</td>
-                {% endif %}
+                {#- Rating #}
+                {%- if row[2] %}
+                <td class="text-center" data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
+                {%- else %}
+                <td class="text-center" data-rating="0">-</td>
+                {%- endif %}
 
-                {# Description #}
+                {#- Description #}
                 <td class="text-center">{{ row[3] or '-' }}</td>
             </tr>
-        {% endfor %}
+        {%- endfor %}
         </tbody>
     </table>
 </main>
