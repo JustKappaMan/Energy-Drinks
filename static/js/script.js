@@ -1,21 +1,41 @@
 'use strict';
 
 (() => {
-    const tableBody = document.querySelector('tbody');
+    const tableBody = document.querySelector('tbody'),
+          tableHeaders = document.querySelectorAll('th'),
+          tableRows = [...tableBody.querySelectorAll('tr')];
 
-    const brandColumnHeader = document.querySelectorAll('th')[0];
-    let isAlphabeticallySortedByBrand = false;
+    let isSortedByBrandAlphabetically = false,
+        isSortedByRatingInDescendingOrder = false;
 
-    brandColumnHeader.addEventListener('click', () => {
-        const tableRows = [...tableBody.querySelectorAll('tr')];
-        if (isAlphabeticallySortedByBrand) {
+    tableHeaders[0].addEventListener('click', () => {
+        if (isSortedByBrandAlphabetically) {
             /* Reverse alphabetical order */
             tableRows.sort((a, b) => b.children[0].innerText.localeCompare(a.children[0].innerText));
-            isAlphabeticallySortedByBrand = false;
+            isSortedByBrandAlphabetically = false;
+            isSortedByRatingInDescendingOrder = false;
         } else {
             /* Alphabetical order */
             tableRows.sort((a, b) => a.children[0].innerText.localeCompare(b.children[0].innerText));
-            isAlphabeticallySortedByBrand = true;
+            isSortedByBrandAlphabetically = true;
+            isSortedByRatingInDescendingOrder = false;
+        }
+
+        tableBody.replaceChildren(...tableRows);
+    });
+
+
+    tableHeaders[2].addEventListener('click', () => {
+        if (isSortedByRatingInDescendingOrder) {
+            /* Ascending order */
+            tableRows.sort((a, b) => a.children[2].dataset.rating - b.children[2].dataset.rating);
+            isSortedByRatingInDescendingOrder = false;
+            isSortedByBrandAlphabetically = false;
+        } else {
+            /* Descending order */
+            tableRows.sort((a, b) => b.children[2].dataset.rating - a.children[2].dataset.rating);
+            isSortedByRatingInDescendingOrder = true;
+            isSortedByBrandAlphabetically = false;
         }
 
         tableBody.replaceChildren(...tableRows);

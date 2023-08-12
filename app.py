@@ -8,5 +8,4 @@ app = Flask(__name__)
 
 @app.get("/")
 def index():
-    energy_drinks = get_index_view_data()
-    return render_template("index.html", energy_drinks=energy_drinks)
+    return render_template("index.html", energy_drinks=get_index_view_data())

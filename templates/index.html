@@ -24,18 +24,30 @@
     <table class="table table-sm table-responsive table-dark table-striped table-bordered table-hover">
         <thead>
         <tr>
-            <th role="button" title="Sort by Brand" class="user-select-none">Brand</th>
-            <th>Flavor</th>
-            <th>Rating</th>
-            <th>Description</th>
+            <th role="button" title="Sort by Brand" class="text-center user-select-none">Brand</th>
+            <th class="text-center">Flavor</th>
+            <th role="button" title="Sort by Rating" class="text-center user-select-none">Rating</th>
+            <th class="text-center">Description</th>
         </tr>
         </thead>
         <tbody>
         {% for row in energy_drinks %}
             <tr>
-                {% for cell in row %}
-                    <td>{{ cell or '-' }}</td>
-                {% endfor %}
+                {# Brand #}
+                <td>{{ row[0] }}</td>
+
+                {# Flavor #}
+                <td>{{ row[1] }}</td>
+
+                {# Rating #}
+                {% if row[2] %}
+                    <td data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
+                {% else %}
+                    <td data-rating="0">-</td>
+                {% endif %}
+
+                {# Description #}
+                <td>{{ row[3] or '-' }}</td>
             </tr>
         {% endfor %}
         </tbody>
