@@ -1,21 +1,17 @@
-table {
-    table-layout: fixed;
-}
-
 #brand-col {
     width: 12em;
-    min-width: 12em;
 }
 
 #flavor-col {
     width: 16em;
-    min-width: 16em;
 }
 
 #rating-col {
     width: 8em;
+}
+
+#description-col {
     min-width: 8em;
-    max-width: 8em;
 }
 
 .clickable {
