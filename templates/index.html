@@ -35,20 +35,20 @@
         {%- for row in energy_drinks %}
             <tr>
                 {#- Brand #}
-                <td>{{ row[0] }}</td>
+                <td class="align-middle">{{ row[0] }}</td>
 
                 {#- Flavor #}
-                <td>{{ row[1] }}</td>
+                <td class="align-middle">{{ row[1] }}</td>
 
                 {#- Rating #}
                 {%- if row[2] %}
-                <td class="text-center" data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
+                <td class="align-middle text-center" data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
                 {%- else %}
-                <td class="text-center" data-rating="0">-</td>
+                <td class="align-middle text-center" data-rating="0">-</td>
                 {%- endif %}
 
                 {#- Description #}
-                <td class="text-center">{{ row[3] or '-' }}</td>
+                <td class="text-center small">{{ row[3] or '-' }}</td>
             </tr>
         {%- endfor %}
         </tbody>
