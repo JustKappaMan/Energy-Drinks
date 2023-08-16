@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Energy Drinks</title>
@@ -26,29 +26,29 @@
     <table class="table table-sm table-dark table-striped table-bordered">
         <thead class="text-center">
         <tr>
-            <th id="brand-col" class="clickable" title="Sort by Brand">Brand<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Sort icon" class="sort-icon"></th>
-            <th id="flavor-col">Flavor</th>
-            <th id="rating-col" class="clickable" title="Sort by Rating">Rating<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Sort icon" class="sort-icon"></th>
-            <th id="description-col">Description</th>
+            <th id="brand-col" class="clickable" title="Сортировать по Бренду">Бренд<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Иконка сортировки" class="sort-icon"></th>
+            <th id="flavor-col">Вкус</th>
+            <th id="rating-col" class="clickable" title="Сортировать по Оценке">Оценка<img src="{{ url_for('static', filename='img/sort-icon.svg') }}" alt="Иконка сортировки" class="sort-icon"></th>
+            <th id="description-col">Описание</th>
         </tr>
         </thead>
         <tbody class="align-middle">
         {%- for row in energy_drinks %}
             <tr>
-                {#- Brand #}
+                {#- Бренд #}
                 <td>{{ row[0] }}</td>
 
-                {#- Flavor #}
+                {#- Вкус #}
                 <td>{{ row[1] }}</td>
 
-                {#- Rating #}
+                {#- Оценка #}
                 {%- if row[2] %}
                 <td class="text-center" data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
                 {%- else %}
                 <td class="text-center" data-rating="0">-</td>
                 {%- endif %}
 
-                {#- Description #}
+                {#- Описание #}
                 <td class="text-center">{{ row[3] or '-' }}</td>
             </tr>
         {%- endfor %}
@@ -56,7 +56,7 @@
     </table>
 </main>
 <footer class="small text-center text-white pb-3">
-    Developed by <a href="https://github.com/JustKappaMan" target="_blank" class="link-light">JustKappaMan</a>
+    Автор: <a href="https://github.com/JustKappaMan" target="_blank" class="link-light">JustKappaMan</a>
 </footer>
 <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
