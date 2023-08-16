@@ -1,13 +1,15 @@
 #brand-col {
-    width: 12em;
+    width: 10em;
+    min-width: min-content;
 }
 
 #flavor-col {
-    width: 16em;
+    width: 12em;
+    min-width: min-content;
 }
 
 #rating-col {
-    width: 8em;
+    width: min-content;
 }
 
 #description-col {
