@@ -35,20 +35,20 @@
         <tbody class="align-middle">
         {%- for row in energy_drinks %}
             <tr>
-                {#- Бренд #}
+                {#- Brand #}
                 <td>{{ row[0] }}</td>
 
-                {#- Вкус #}
+                {#- Flavor #}
                 <td>{{ row[1] }}</td>
 
-                {#- Оценка #}
+                {#- Rating #}
                 {%- if row[2] %}
                 <td class="text-center" data-rating="{{ row[2] }}">{{ "⭐" * row[2] }}</td>
                 {%- else %}
                 <td class="text-center" data-rating="0">-</td>
                 {%- endif %}
 
-                {#- Описание #}
+                {#- Description #}
                 <td class="text-center">{{ row[3] or '-' }}</td>
             </tr>
         {%- endfor %}
