@@ -2,7 +2,7 @@
 ![MIT License](https://img.shields.io/github/license/JustKappaMan/Energy-Drinks)
 ![Code style: black](https://img.shields.io/badge/code%20style-black-black)
 
-Мой личный рейтинг энергетических напитков.
+Субъективный рейтинг энергетических напитков.
 
 ## Благодарность
 * [JetBrains](https://www.jetbrains.com) за [Open Source Development лицензию](https://www.jetbrains.com/community/opensource) на их продукты
