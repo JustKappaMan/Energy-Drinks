@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-from database import get_index_view_data
+from energydrinks.database import get_index_view_data
 
 
 app = Flask(__name__)

@@ -6,7 +6,7 @@ from flask import g
 def _get_db() -> sqlite3.Connection:
     """Return the existing/new DB connection"""
     if "db" not in g:
-        g.db = sqlite3.connect("database.db", detect_types=sqlite3.PARSE_DECLTYPES)
+        g.db = sqlite3.connect("../database.db", detect_types=sqlite3.PARSE_DECLTYPES)
         g.db.row_factory = sqlite3.Row
     return g.db
 
