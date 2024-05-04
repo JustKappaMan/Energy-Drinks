@@ -1414,6 +1414,13 @@ const db = [
         "flavor": "Lychee Coconut",
         "rating": 2,
         "description": "Посредственный вкус, мало газов, наполовину на аспартаме."
+    },
+    {
+        "id": 203,
+        "brand": "Adrenaline Rush",
+        "flavor": "Summer Energy Гуанабана-Лайм",
+        "rating": 3,
+        "description": "Кисловато-сливочный, слегка экзотичный вкус. Наполовину на подсластителях."
     }
 ];
 
