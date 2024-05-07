@@ -1435,6 +1435,13 @@ const db = [
         "flavor": "Live",
         "rating": 2,
         "description": "Вкус разбавленного водой классического энергетика с неприятными травяными нотками."
+    },
+    {
+        "id": 206,
+        "brand": "Buzz",
+        "flavor": "Original",
+        "rating": 3,
+        "description": "Немного менее кислый «Flash Up Energy»."
     }
 ];
 
