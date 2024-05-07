@@ -1442,6 +1442,13 @@ const db = [
         "flavor": "Original",
         "rating": 3,
         "description": "Немного менее кислый «Flash Up Energy»."
+    },
+    {
+        "id": 207,
+        "brand": "Buzz",
+        "flavor": "Berry",
+        "rating": 3,
+        "description": "Смесь вкусов классического и ягодного энергетиков. Кисленький."
     }
 ];
 
