@@ -363,7 +363,7 @@ const db = [
         "brand": "Flash Up",
         "flavor": "Berry Mix",
         "rating": 2,
-        "description": "Вкус чего-то врде красной смородины. Ощущается ещё более кислым чем «Flash Up Original»."
+        "description": "Вкус чего-то врде красной смородины. Ощущается ещё более кислым чем «Flash Up Energy»."
     },
     {
         "id": 53,
@@ -706,7 +706,7 @@ const db = [
         "brand": "Flash Up",
         "flavor": "Bubble Gum",
         "rating": 2,
-        "description": "Менее кислый чем «Flash Up Original». Типичный вкус бабл-гам."
+        "description": "Менее кислый чем «Flash Up Energy». Типичный вкус бабл-гам."
     },
     {
         "id": 102,
