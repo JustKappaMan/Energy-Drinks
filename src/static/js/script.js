@@ -1491,6 +1491,13 @@ const db = [
         "flavor": "Kiwi Carambola",
         "rating": 3,
         "description": "На удивление не кислый. Вкус карамболы доминирует. Лёгкая обволакивающая сладость на послевкусии."
+    },
+    {
+        "id": 214,
+        "brand": "Solar Energy",
+        "flavor": "Candy Shop",
+        "rating": 2,
+        "description": "Не очень приятный вкус детской жевательной резинки."
     }
 ];
 
