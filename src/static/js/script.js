@@ -1498,6 +1498,13 @@ const db = [
         "flavor": "Candy Shop",
         "rating": 2,
         "description": "Не очень приятный вкус детской жевательной резинки."
+    },
+    {
+        "id": 215,
+        "brand": "Solar Energy",
+        "flavor": "Cherry Berry",
+        "rating": 2,
+        "description": "Химозные вкус и аромат вишни и других ягод. Словно какой-то дешёвый шампунь."
     }
 ];
 
