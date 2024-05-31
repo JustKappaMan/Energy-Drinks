@@ -1519,6 +1519,13 @@ const db = [
         "flavor": "Apple Juice",
         "rating": 3,
         "description": "Мягкий вкус яблочного сока с нотками белого винограда и груши."
+    },
+    {
+        "id": 218,
+        "brand": "HQD Energy",
+        "flavor": "Peach Nectarine",
+        "rating": 3,
+        "description": "Вкус персика, нотки нектарина, немного мякоти. Менее насыщенная версия «Monster Energy Monarch»."
     }
 ];
 
