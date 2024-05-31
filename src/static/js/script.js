@@ -1533,6 +1533,13 @@ const db = [
         "flavor": "Classic Power",
         "rating": 3,
         "description": "Классический вкус энергетика. Похож на «Drive Me Original» но с более качественным составом и без мерзких ноток."
+    },
+    {
+        "id": 220,
+        "brand": "HQD Energy",
+        "flavor": "Tropic Punch",
+        "rating": 3,
+        "description": "Мягкий и довольно нейтральный тропический вкус. Без тошнотворных кокоса/манго/и т.п."
     }
 ];
 
