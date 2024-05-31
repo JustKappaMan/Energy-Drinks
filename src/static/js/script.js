@@ -1540,6 +1540,13 @@ const db = [
         "flavor": "Tropic Punch",
         "rating": 3,
         "description": "Мягкий и довольно нейтральный тропический вкус. Без тошнотворных кокоса/манго/и т.п."
+    },
+    {
+        "id": 221,
+        "brand": "HQD Energy",
+        "flavor": "Cherry Bomb",
+        "rating": 3,
+        "description": "Вкус не самого дешёвого сока вишни. Практически не кислый."
     }
 ];
 
