@@ -1526,6 +1526,13 @@ const db = [
         "flavor": "Peach Nectarine",
         "rating": 3,
         "description": "Вкус персика, нотки нектарина, немного мякоти. Менее насыщенная версия «Monster Energy Monarch»."
+    },
+    {
+        "id": 219,
+        "brand": "HQD Energy",
+        "flavor": "Classic Power",
+        "rating": 3,
+        "description": "Классический вкус энергетика. Похож на «Drive Me Original» но с более качественным составом и без мерзких ноток."
     }
 ];
 
