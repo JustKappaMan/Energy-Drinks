@@ -1512,6 +1512,13 @@ const db = [
         "flavor": "Citrus Smash",
         "rating": 2,
         "description": "Вкус цитрусовых пастилок от кашля с преобладающим лимоном. Нотки подсластителя."
+    },
+    {
+        "id": 217,
+        "brand": "HQD Energy",
+        "flavor": "Apple Juice",
+        "rating": 3,
+        "description": "Мягкий вкус яблочного сока с нотками белого винограда и груши."
     }
 ];
 
