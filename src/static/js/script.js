@@ -1547,6 +1547,13 @@ const db = [
         "flavor": "Cherry Bomb",
         "rating": 3,
         "description": "Вкус не самого дешёвого сока вишни. Практически не кислый."
+    },
+    {
+        "id": 222,
+        "brand": "Tornado Energy",
+        "flavor": "Banana",
+        "rating": 3,
+        "description": "Смесь двух вкусов банана: переспелой мякоти и того, что используется в сладостях."
     }
 ];
 
