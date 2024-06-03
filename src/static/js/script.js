@@ -1561,6 +1561,13 @@ const db = [
         "flavor": "Mango Nectar",
         "rating": 3,
         "description": "Вкус мультифруктового сока с нотками манго. Очень нейтральный."
+    },
+    {
+        "id": 224,
+        "brand": "The Scandalist",
+        "flavor": "Ex's Heart",
+        "rating": 2,
+        "description": "Водянистый. Посредственная газация. Лёгкий вкус зелёного яблока и малины."
     }
 ];
 
