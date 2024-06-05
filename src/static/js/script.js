@@ -1582,6 +1582,13 @@ const db = [
         "flavor": "Berry Energy",
         "rating": 3,
         "description": "Сладкий ягодно-леденцовый вкус. Не хватает кислинки и свежести."
+    },
+    {
+        "id": 227,
+        "brand": "The Scandalist",
+        "flavor": "Geneve 1988",
+        "rating": 2,
+        "description": "Вкус черничной глазури для пончика и сахарной посыпки."
     }
 ];
 
