@@ -1596,6 +1596,13 @@ const db = [
         "flavor": "Geneve",
         "rating": 3,
         "description": "Терпкий вкус черники. Похож на «Red Bull Blue Edition Blueberry»."
+    },
+    {
+        "id": 229,
+        "brand": "The Scandalist",
+        "flavor": "Adder Terror",
+        "rating": 2,
+        "description": "Химозный вкус дыни, 1 в 1 дынная жвачка. Персик практически не ощущается."
     }
 ];
 
