@@ -1589,6 +1589,13 @@ const db = [
         "flavor": "Geneve 1988",
         "rating": 2,
         "description": "Вкус черничной глазури для пончика и сахарной посыпки."
+    },
+    {
+        "id": 228,
+        "brand": "The Scandalist",
+        "flavor": "Geneve",
+        "rating": 3,
+        "description": "Терпкий вкус черники. Похож на «Red Bull Blue Edition Blueberry»."
     }
 ];
 
