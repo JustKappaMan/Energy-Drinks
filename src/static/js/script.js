@@ -1603,6 +1603,13 @@ const db = [
         "flavor": "Adder Terror",
         "rating": 2,
         "description": "Химозный вкус дыни, 1 в 1 дынная жвачка. Персик практически не ощущается."
+    },
+    {
+        "id": 230,
+        "brand": "Tornado Energy",
+        "flavor": "Watermelon",
+        "rating": 3,
+        "description": "Напоминает арбузный фруктовый лёд. Довольно приятный вкус."
     }
 ];
 
