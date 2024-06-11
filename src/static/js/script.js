@@ -1624,7 +1624,14 @@ const db = [
         "flavor": "Малина-Мята",
         "rating": 3,
         "description": "Обычные химозненькие вкусы малины и мяты. Очень похож на «WK UP Raspberry Mint», но с сахаром."
-    }
+    },
+    {
+        "id": 233,
+        "brand": "The Scandalist",
+        "flavor": "Doomsday Machine",
+        "rating": 3,
+        "description": "Яркий вкус маракуйи. Апельсин на втором плане, но ощущается достаточно хорошо."
+    },
 ];
 
 (() => {
