@@ -1638,6 +1638,13 @@ const db = [
         "flavor": "War Head",
         "rating": 2,
         "description": "Средненькие вкусы гуавы и манго. Горечь на послевкусии."
+    },
+    {
+        "id": 235,
+        "brand": "Double Pull",
+        "flavor": "Berry Mix",
+        "rating": 2,
+        "description": "Посредственный вкус лесных ягод. Аспартам в составе."
     }
 ];
 
