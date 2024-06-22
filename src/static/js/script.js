@@ -1645,6 +1645,13 @@ const db = [
         "flavor": "Berry Mix",
         "rating": 2,
         "description": "Посредственный вкус лесных ягод. Аспартам в составе."
+    },
+    {
+        "id": 236,
+        "brand": "Solar Energy",
+        "flavor": "Coco Punch",
+        "rating": 2,
+        "description": "Не очень приятный и слегка водянистый вкус кокоса."
     }
 ];
 
