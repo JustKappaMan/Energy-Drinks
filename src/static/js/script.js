@@ -1673,6 +1673,13 @@ const db = [
         "flavor": "Marshmallow",
         "rating": 3,
         "description": "Вкус очень похож на реальный зефир. Нотки ванили. Полностью на сахаре. Вкусный."
+    },
+    {
+        "id": 240,
+        "brand": "Red Bull",
+        "flavor": "Curuba Elderflower",
+        "rating": 3,
+        "description": "Мягкий и душистый напиток с лёгким фруктовым вкусом."
     }
 ];
 
