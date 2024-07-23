@@ -1680,6 +1680,13 @@ const db = [
         "flavor": "Curuba Elderflower",
         "rating": 3,
         "description": "Мягкий и душистый напиток с лёгким фруктовым вкусом."
+    },
+    {
+        "id": 241,
+        "brand": "Volt Energy",
+        "flavor": "Strawberry Banana",
+        "rating": 2,
+        "description": "Химозненький вкус жвачки «Love is»."
     }
 ];
 
