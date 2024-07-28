@@ -1687,6 +1687,13 @@ const db = [
         "flavor": "Strawberry Banana",
         "rating": 2,
         "description": "Химозненький вкус жвачки «Love is»."
+    },
+    {
+        "id": 242,
+        "brand": "Burn",
+        "flavor": "Guava",
+        "rating": 2,
+        "description": "Очень похож на «Burn Tropical Mix». Сладкий вкус тропического мармелада."
     }
 ];
 
