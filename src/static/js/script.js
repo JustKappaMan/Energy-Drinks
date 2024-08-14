@@ -1694,6 +1694,13 @@ const db = [
         "flavor": "Guava",
         "rating": 2,
         "description": "Очень похож на «Burn Tropical Mix». Сладкий вкус тропического мармелада."
+    },
+    {
+        "id": 243,
+        "brand": "Jaguar",
+        "flavor": "Extra Urban Energy - Passion Fruit & Orange",
+        "rating": 3,
+        "description": "Самый обыкновенный мультифркутовый энергетик."
     }
 ];
 
