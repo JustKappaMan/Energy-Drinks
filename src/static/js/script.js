@@ -1701,6 +1701,13 @@ const db = [
         "flavor": "Extra Urban Energy - Passion Fruit & Orange",
         "rating": 3,
         "description": "Самый обыкновенный мультифркутовый энергетик."
+    },
+    {
+        "id": 244,
+        "brand": "Jaguar",
+        "flavor": "Extra Urban Energy - Dragon Fruit & Guava",
+        "rating": 3,
+        "description": "Вкус тропических фруктов с доминирующей гуавой и нотками мармелада."
     }
 ];
 
