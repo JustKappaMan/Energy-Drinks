@@ -1715,6 +1715,13 @@ const db = [
         "flavor": "Hard Energy",
         "rating": 2,
         "description": "Конфетный приторный вкус дюшес."
+    },
+    {
+        "id": 246,
+        "brand": "Actibo",
+        "flavor": "Vita Energy",
+        "rating": 3,
+        "description": "Вкус сока из зелёных яблок."
     }
 ];
 
