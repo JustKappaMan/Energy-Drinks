@@ -1722,6 +1722,13 @@ const db = [
         "flavor": "Vita Energy",
         "rating": 3,
         "description": "Вкус сока из зелёных яблок."
+    },
+    {
+        "id": 247,
+        "brand": "Lit Energy",
+        "flavor": "Peach Mango",
+        "rating": 3,
+        "description": "Типичный микс вкусов персика и манго."
     }
 ];
 
