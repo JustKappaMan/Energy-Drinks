@@ -1708,6 +1708,13 @@ const db = [
         "flavor": "Extra Urban Energy - Dragon Fruit & Guava",
         "rating": 3,
         "description": "Вкус тропических фруктов с доминирующей гуавой и нотками мармелада."
+    },
+    {
+        "id": 245,
+        "brand": "Actibo",
+        "flavor": "Hard Energy",
+        "rating": 2,
+        "description": "Конфетный приторный вкус дюшес."
     }
 ];
 
