@@ -1729,6 +1729,13 @@ const db = [
         "flavor": "Peach Mango",
         "rating": 3,
         "description": "Типичный микс вкусов персика и манго."
+    },
+    {
+        "id": 248,
+        "brand": "X-Turbo",
+        "flavor": "Party",
+        "rating": 3,
+        "description": "Неплохой вкус манго. Сок манго в составе."
     }
 ];
 
