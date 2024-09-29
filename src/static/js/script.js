@@ -1700,7 +1700,7 @@ const db = [
         "brand": "Jaguar",
         "flavor": "Extra Urban Energy - Passion Fruit & Orange",
         "rating": 3,
-        "description": "Самый обыкновенный мультифркутовый энергетик."
+        "description": "Самый обыкновенный мультифруктовый энергетик."
     },
     {
         "id": 244,
