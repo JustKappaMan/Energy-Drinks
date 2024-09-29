@@ -1743,6 +1743,13 @@ const db = [
         "flavor": "Nitro Apple",
         "rating": 2,
         "description": "Посредственный вкус яблока с экзотическими нотками. Такой себе состав. Полностью на сахаре."
+    },
+    {
+        "id": 250,
+        "brand": "Jaguar",
+        "flavor": "Extra Urban Energy - Kiwi & Cactus",
+        "rating": 2,
+        "description": "Химозный вкус кактуса. Приторная сладость."
     }
 ];
 
