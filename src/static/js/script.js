@@ -1,6 +1,6 @@
 "use strict";
 
-const db = [
+const DB = [
   {
     id: 1,
     brand: "Gorilla",
@@ -1804,7 +1804,7 @@ const db = [
     [5, "⭐⭐⭐⭐⭐"],
   ]);
 
-  for (const record of db) {
+  for (const record of DB) {
     const row = tbody.insertRow();
 
     row.insertCell().innerHTML = record.brand;
