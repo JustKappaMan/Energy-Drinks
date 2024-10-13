@@ -1766,6 +1766,13 @@ const DB = [
     rating: 2,
     description: "Химозный вкус кактуса. Приторная сладость.",
   },
+  {
+    id: 251,
+    brand: "Black Rocket",
+    flavor: "Cola",
+    rating: 2,
+    description: "Водянистый вкус дешёвого аналога колы с травяными нотками.",
+  },
 ];
 
 (() => {
