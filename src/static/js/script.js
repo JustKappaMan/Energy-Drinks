@@ -1808,6 +1808,13 @@ const DB = [
     rating: 3,
     description: "Вкус кислых мармеладных червячков с ноткой таурина.",
   },
+  {
+    id: 257,
+    brand: "Piranha's Slam",
+    flavor: "Classic Energy",
+    rating: 2,
+    description: "Вкус тутти-фрутти с лёгкой горчинкой. Наполовину на подсластителях.",
+  },
 ];
 
 (() => {
