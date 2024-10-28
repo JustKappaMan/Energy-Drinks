@@ -1815,6 +1815,13 @@ const DB = [
     rating: 2,
     description: "Вкус тутти-фрутти с лёгкой горчинкой. Наполовину на подсластителях.",
   },
+  {
+    id: 258,
+    brand: "Adrenaline Rush",
+    flavor: "Sparkling Energy",
+    rating: 1,
+    description: "Вкус шампанского. Наполовину на подсластителях. Аспартам в составе.",
+  },
 ];
 
 (() => {
