@@ -1829,6 +1829,13 @@ const DB = [
     rating: 2,
     description: "Вкус мохито с лёгкой горчинкой. Наполовину на подсластителях.",
   },
+  {
+    id: 260,
+    brand: "Monster Energy",
+    flavor: "Nitro Cosmic Peach",
+    rating: 4,
+    description: "Приятные вкус и аромат персика. Отличная газация.",
+  },
 ];
 
 (() => {
