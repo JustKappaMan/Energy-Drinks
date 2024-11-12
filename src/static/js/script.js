@@ -1836,6 +1836,13 @@ const DB = [
     rating: 4,
     description: "Приятные вкус и аромат персика. Отличная газация.",
   },
+  {
+    id: 261,
+    brand: "Monster Energy",
+    flavor: "Ultra Strawberry Dreams",
+    rating: 5,
+    description: "Очень приятный вкус жевательных конфет со вкусом клубники со сливками.",
+  },
 ];
 
 (() => {
