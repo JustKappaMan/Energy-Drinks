@@ -1864,6 +1864,13 @@ const DB = [
     rating: 3,
     description: "Максимально приближенный к гранатовому соку вкус.",
   },
+  {
+    id: 265,
+    brand: "Double Pull",
+    flavor: "Mango-Coconut",
+    rating: 2,
+    description: "Неприятный дешёвый вкус. Плохой состав.",
+  },
 ];
 
 (() => {
