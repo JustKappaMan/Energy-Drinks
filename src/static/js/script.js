@@ -1871,6 +1871,13 @@ const DB = [
     rating: 2,
     description: "Неприятный дешёвый вкус. Плохой состав.",
   },
+  {
+    id: 266,
+    brand: "PULSEUP",
+    flavor: "Mango Energy",
+    rating: 3,
+    description: "Неплохой вкус манго с ноткой кокоса. Хороший состав.",
+  },
 ];
 
 (() => {
