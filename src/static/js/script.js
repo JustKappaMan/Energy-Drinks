@@ -1885,6 +1885,13 @@ const DB = [
     rating: 3,
     description: "Неплохой вкус ягод. Разнообразные соки в составе.",
   },
+  {
+    id: 268,
+    brand: "Lit Energy",
+    flavor: "Cola",
+    rating: 2,
+    description: "Ненасыщенный вкус колы.",
+  },
 ];
 
 (() => {
