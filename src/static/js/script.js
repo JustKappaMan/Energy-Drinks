@@ -1906,6 +1906,13 @@ const DB = [
     rating: 3,
     description: "Тот же «Tornado Energy Razzberry», но полностью на сахаре.",
   },
+  {
+    id: 271,
+    brand: "Tornado Energy",
+    flavor: "Max Coconut",
+    rating: 2,
+    description: "Тот же «Tornado Energy Coconut», но полностью на сахаре.",
+  },
 ];
 
 (() => {
