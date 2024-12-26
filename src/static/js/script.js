@@ -1892,6 +1892,13 @@ const DB = [
     rating: 2,
     description: "Ненасыщенный вкус колы.",
   },
+  {
+    id: 269,
+    brand: "Tornado Energy",
+    flavor: "Max Original",
+    rating: 3,
+    description: "Тот же «Tornado Energy Storm», но полностью на сахаре.",
+  },
 ];
 
 (() => {
