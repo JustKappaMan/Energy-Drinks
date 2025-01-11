@@ -1913,6 +1913,13 @@ const DB = [
     rating: 2,
     description: "Тот же «Tornado Energy Coconut», но полностью на сахаре.",
   },
+  {
+    id: 272,
+    brand: "X-Turbo",
+    flavor: "Focus",
+    rating: 3,
+    description: "Сбалансированный классический вкус. Приятная кислинка. Полностью на сахаре.",
+  },
 ];
 
 (() => {
