@@ -1962,6 +1962,13 @@ const DB = [
     rating: 3,
     description: "Яркие вкус и аромат помело. Ананас на втором плане. Лёгкая горчинка.",
   },
+  {
+    id: 279,
+    brand: "HQD Energy",
+    flavor: "Original Dew",
+    rating: 3,
+    description: "Вкус оригинального «Mountain Dew», но более лаймово-лимонный.",
+  },
 ];
 
 (() => {
