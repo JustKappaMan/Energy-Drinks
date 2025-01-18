@@ -1969,6 +1969,13 @@ const DB = [
     rating: 3,
     description: "Вкус оригинального «Mountain Dew», но более лаймово-лимонный.",
   },
+  {
+    id: 280,
+    brand: "HQD Energy",
+    flavor: "Red Sicilian Orange",
+    rating: 3,
+    description: "Приятный вкус апельсина с горчинкой. Апельсиновый сок в составе.",
+  },
 ];
 
 (() => {
