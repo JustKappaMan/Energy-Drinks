@@ -1976,6 +1976,13 @@ const DB = [
     rating: 3,
     description: "Приятный вкус апельсина с горчинкой. Апельсиновый сок в составе.",
   },
+  {
+    id: 281,
+    brand: "HQD Energy",
+    flavor: "Baza Blast",
+    rating: 2,
+    description: "Вкус оригинального «Sprite», но более сладкий и приторный.",
+  },
 ];
 
 (() => {
