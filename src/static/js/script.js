@@ -1983,6 +1983,13 @@ const DB = [
     rating: 2,
     description: "Вкус оригинального «Sprite», но более сладкий и приторный.",
   },
+  {
+    id: 282,
+    brand: "HQD Energy",
+    flavor: "Pink Lemonade",
+    rating: 3,
+    description: "Неплохой сладковатый напиток с горчинкой и ароматом грейпфрута.",
+  },
 ];
 
 (() => {
