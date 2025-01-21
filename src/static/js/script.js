@@ -1990,6 +1990,13 @@ const DB = [
     rating: 3,
     description: "Неплохой сладковатый напиток с горчинкой и ароматом грейпфрута.",
   },
+  {
+    id: 283,
+    brand: "HQD Energy",
+    flavor: "Zero Classic Power",
+    rating: 2,
+    description: "Сначала пьётся чуть лучше «Drive Me Original». Стоит чуть выдохнуться - становится мерзковатым.",
+  },
 ];
 
 (() => {
