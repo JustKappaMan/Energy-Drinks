@@ -2004,6 +2004,13 @@ const DB = [
     rating: 3,
     description: "Ненавязчивый вкус грейпфрута. Нотка ананаса.",
   },
+  {
+    id: 285,
+    brand: "Крым Energy",
+    flavor: "Original",
+    rating: 3,
+    description: "Классический вкус. Кисленький. Очень похож на «Flash Up Energy».",
+  },
 ];
 
 (() => {
