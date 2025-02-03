@@ -2018,6 +2018,13 @@ const DB = [
     rating: 3,
     description: "Вкус ягодных леденцов. Приятный холодок на послевкусии.",
   },
+  {
+    id: 287,
+    brand: "Tornado Energy",
+    flavor: "Black",
+    rating: 3,
+    description: "Вкус мультифруктового сока с лёгкой горчинкой.",
+  },
 ];
 
 (() => {
