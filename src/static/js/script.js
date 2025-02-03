@@ -1997,6 +1997,13 @@ const DB = [
     rating: 2,
     description: "Сначала пьётся чуть лучше «Drive Me Original». Стоит чуть выдохнуться - становится мерзковатым.",
   },
+  {
+    id: 284,
+    brand: "Крым Energy",
+    flavor: "Storm Citrus",
+    rating: 3,
+    description: "Ненавязчивый вкус грейпфрута. Нотка ананаса.",
+  },
 ];
 
 (() => {
