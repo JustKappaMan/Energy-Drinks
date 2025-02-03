@@ -2009,7 +2009,14 @@ const DB = [
     brand: "Крым Energy",
     flavor: "Original",
     rating: 3,
-    description: "Классический вкус. Кисленький. Очень похож на «Flash Up Energy».",
+    description: "Классический вкус. Кисловатый. Очень похож на «Flash Up Energy».",
+  },
+  {
+    id: 286,
+    brand: "Target",
+    flavor: "Ice Berry",
+    rating: 3,
+    description: "Вкус ягодных леденцов. Приятный холодок на послевкусии.",
   },
 ];
 
