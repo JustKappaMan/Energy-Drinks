@@ -2025,6 +2025,13 @@ const DB = [
     rating: 3,
     description: "Вкус мультифруктового сока с лёгкой горчинкой.",
   },
+  {
+    id: 288,
+    brand: "Monster Energy",
+    flavor: "Bad Apple",
+    rating: 4,
+    description: "Вкус кислого яблочного сока. Груша, киви и вишня на послевкусии.",
+  },
 ];
 
 (() => {
