@@ -2032,6 +2032,13 @@ const DB = [
     rating: 4,
     description: "Вкус кислого яблочного сока. Груша, киви и вишня на послевкусии.",
   },
+  {
+    id: 289,
+    brand: "Monster Energy",
+    flavor: "Ultra Black",
+    rating: 3,
+    description: "Вкус сладких ягод черники.",
+  },
 ];
 
 (() => {
