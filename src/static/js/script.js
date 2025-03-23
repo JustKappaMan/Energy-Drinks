@@ -2039,6 +2039,13 @@ const DB = [
     rating: 3,
     description: "Вкус сладких ягод черники.",
   },
+  {
+    id: 290,
+    brand: "Monster Energy",
+    flavor: "Ultra Peachy Keen",
+    rating: 4,
+    description: "Яркий вкус сладкого персика. Как в персиковой жвачке.",
+  }
 ];
 
 (() => {
