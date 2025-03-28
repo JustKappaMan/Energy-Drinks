@@ -2045,6 +2045,13 @@ const DB = [
     flavor: "Ultra Peachy Keen",
     rating: 4,
     description: "Яркий вкус сладкого персика. Как в персиковой жвачке.",
+  },
+  {
+    id: 291,
+    brand: "Adrenaline Rush",
+    flavor: "Breeze Energy Ice Effect",
+    rating: 2,
+    description: "Голубая малина и лайм ощущаются, но словно моющего средства хлебнул. Холодка практически нет. Ещё и цена заоблачная. Лучше 2 «Target Ice Berry» купить.",
   }
 ];
 
