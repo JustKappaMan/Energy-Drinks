@@ -2087,7 +2087,14 @@ const DB = [
     flavor: "Popcorn",
     rating: 1,
     description: "Вкус подгоревшего карамельного попкорна с мерзкой кислинкой.",
-  }
+  },
+  {
+    id: 297,
+    brand: "Monster Energy",
+    flavor: "Rio Punch",
+    rating: 4,
+    description: "Папайя доминирует. Необычный тропический вкус. Приятная сладость.",
+  },
 ];
 
 (() => {
