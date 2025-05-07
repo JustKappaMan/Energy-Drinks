@@ -2095,6 +2095,13 @@ const DB = [
     rating: 4,
     description: "Папайя доминирует. Необычный тропический вкус. Приятная сладость.",
   },
+  {
+    id: 298,
+    brand: "PULSEUP",
+    flavor: "Prosecco Energy",
+    rating: 3,
+    description: "Приятный вкус клубники с ноткой белого винограда.",
+  },
 ];
 
 (() => {
