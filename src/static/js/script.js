@@ -2102,6 +2102,13 @@ const DB = [
     rating: 3,
     description: "Приятный вкус клубники с ноткой белого винограда.",
   },
+  {
+    id: 299,
+    brand: "Jaguar",
+    flavor: "Extra Urban Energy - Йошта & Черника",
+    rating: 4,
+    description: "Очень приятный и насыщенный вкус черники.",
+  },
 ];
 
 (() => {
