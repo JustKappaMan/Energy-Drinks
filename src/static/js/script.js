@@ -2116,6 +2116,13 @@ const DB = [
     rating: 2,
     description: "Вкус недорогого ягодного энергетика по завыщенной цене.",
   },
+  {
+    id: 301,
+    brand: "Ninja Star",
+    flavor: "Wild Strawberry & Vanilla",
+    rating: 3,
+    description: "Вкус жевательных конфет «Клубника со сливками». Не хватает насыщенности.",
+  },
 ];
 
 (() => {
