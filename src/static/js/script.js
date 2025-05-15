@@ -2137,6 +2137,13 @@ const DB = [
     rating: 2,
     description: "Вкус недорогого бабл-гам энергетика по завыщенной цене.",
   },
+  {
+    id: 304,
+    brand: "Monster Energy",
+    flavor: "Zero Sugar",
+    rating: 3,
+    description: "Всё тот же классический вкус, но чуть менее насыщенный.",
+  },
 ];
 
 (() => {
