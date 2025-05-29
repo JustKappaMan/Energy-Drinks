@@ -2120,14 +2120,14 @@ const DB = [
     id: 301,
     brand: "Ninja Star",
     flavor: "Wild Strawberry & Vanilla",
-    rating: 3,
+    rating: 2,
     description: "Вкус жевательных конфет «Клубника со сливками». Не хватает насыщенности.",
   },
   {
     id: 302,
     brand: "Ninja Star",
     flavor: "White Peach & Lychee",
-    rating: 3,
+    rating: 2,
     description: "Мягкий вкус личи и персика. Не хватает насыщенности.",
   },
   {
