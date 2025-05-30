@@ -2186,6 +2186,13 @@ const DB = [
     rating: 2,
     description: "Буквально смесь соков яблока и манго с добавлением экстракта гуараны.",
   },
+  {
+    id: 311,
+    brand: "Burn",
+    flavor: "Цитрусовый Микс",
+    rating: 2,
+    description: "Один в один «Monster Energy Ultra White Zero».",
+  },
 ];
 
 (() => {
