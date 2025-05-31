@@ -2193,6 +2193,13 @@ const DB = [
     rating: 2,
     description: "Один в один «Monster Energy Ultra White Zero».",
   },
+  {
+    id: 312,
+    brand: "Red Bull",
+    flavor: "Summer Edition White Peach",
+    rating: 3,
+    description: "Вкус несладкого персика.",
+  },
 ];
 
 (() => {
