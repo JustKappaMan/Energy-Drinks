@@ -2200,6 +2200,13 @@ const DB = [
     rating: 3,
     description: "Вкус несладкого персика.",
   },
+  {
+    id: 313,
+    brand: "Red Bull",
+    flavor: "Sea Blue Edition Juneberry",
+    rating: 3,
+    description: "Один в один «Red Bull Summer Edition Juneberry».",
+  },
 ];
 
 (() => {
