@@ -2207,6 +2207,13 @@ const DB = [
     rating: 3,
     description: "Один в один «Red Bull Summer Edition Juneberry».",
   },
+  {
+    id: 314,
+    brand: "Gorilla",
+    flavor: "Tropical Punch",
+    rating: 3,
+    description: "Доминирует вкус манго. Соки в составе. Неплохой тропический вкус.",
+  },
 ];
 
 (() => {
