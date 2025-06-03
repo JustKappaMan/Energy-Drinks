@@ -2214,6 +2214,13 @@ const DB = [
     rating: 3,
     description: "Доминирует вкус манго. Соки в составе. Неплохой тропический вкус.",
   },
+  {
+    id: 315,
+    brand: "Monster Energy",
+    flavor: "Ultra Fantasy Ruby Red",
+    rating: 3,
+    description: "Вкус «Monster Energy Ultra White Zero» со слегка доминирующим грейпфрутом.",
+  },
 ];
 
 (() => {
