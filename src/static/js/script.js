@@ -2221,6 +2221,13 @@ const DB = [
     rating: 3,
     description: "Вкус «Monster Energy Ultra White Zero» со слегка доминирующим грейпфрутом.",
   },
+  {
+    id: 316,
+    brand: "Cosmos",
+    flavor: "Яркая Энергия",
+    rating: 2,
+    description: "Неудачная замена «Turbo Energy Яркая Энергия».",
+  },
 ];
 
 (() => {
