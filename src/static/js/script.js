@@ -2228,6 +2228,13 @@ const DB = [
     rating: 2,
     description: "Неудачная замена «Turbo Energy Яркая Энергия».",
   },
+  {
+    id: 317,
+    brand: "Cosmos",
+    flavor: "Дерзкая Энергия",
+    rating: 2,
+    description: "Неудачная замена «Turbo Energy Дерзкая Энергия».",
+  },
 ];
 
 (() => {
