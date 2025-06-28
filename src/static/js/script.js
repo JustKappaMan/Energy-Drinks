@@ -2235,6 +2235,13 @@ const DB = [
     rating: 2,
     description: "Неудачная замена «Turbo Energy Дерзкая Энергия».",
   },
+  {
+    id: 318,
+    brand: "Gorilla",
+    flavor: "Berry Blast",
+    rating: 4,
+    description: "Приятный вкус кисловатых черники и голубики.",
+  },
 ];
 
 (() => {
