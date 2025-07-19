@@ -2242,6 +2242,13 @@ const DB = [
     rating: 4,
     description: "Приятный вкус кисловатых черники и голубики.",
   },
+  {
+    id: 319,
+    brand: "Volt Energy",
+    flavor: "Kiwi Feijoa",
+    rating: 3,
+    description: "Вкус спелого киви. Фейхоа практически не ощущается.",
+  },
 ];
 
 (() => {
