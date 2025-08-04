@@ -2249,6 +2249,13 @@ const DB = [
     rating: 3,
     description: "Вкус спелого киви. Фейхоа практически не ощущается.",
   },
+  {
+    id: 320,
+    brand: "PULSEUP",
+    flavor: "Frozen Energy",
+    rating: 3,
+    description: "Вкус мятных леденцов с нотками лимона.",
+  },
 ];
 
 (() => {
