@@ -2256,6 +2256,13 @@ const DB = [
     rating: 3,
     description: "Вкус мятных леденцов с нотками лимона.",
   },
+  {
+    id: 321,
+    brand: "Monster Energy",
+    flavor: "Rehab Tea Lemonade",
+    rating: 3,
+    description: "Типичный бутилированный черный чай с лимоном.",
+  },
 ];
 
 (() => {
