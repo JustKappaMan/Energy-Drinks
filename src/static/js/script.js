@@ -2263,6 +2263,13 @@ const DB = [
     rating: 3,
     description: "Типичный бутилированный черный чай с лимоном.",
   },
+  {
+    id: 322,
+    brand: "Lit Energy",
+    flavor: "Strawberry Bubble Gum",
+    rating: 3,
+    description: "Вкус клубничных леденцов. Нотки тутти-фрутти.",
+  },
 ];
 
 (() => {
