@@ -2291,6 +2291,13 @@ const DB = [
     rating: 3,
     description: "Неплохая смесь вкусов арбуза и дыни. Приятный аромат дыни.",
   },
+  {
+    id: 326,
+    brand: "X-Turbo",
+    flavor: "Asian Blast",
+    rating: 3,
+    description: "Мягкий вкус персика с цветочными нотками.",
+  },
 ];
 
 (() => {
