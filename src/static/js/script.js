@@ -2298,6 +2298,13 @@ const DB = [
     rating: 3,
     description: "Мягкий вкус персика с цветочными нотками.",
   },
+  {
+    id: 327,
+    brand: "X-Turbo",
+    flavor: "Jungle Buff",
+    rating: 3,
+    description: "Смесь вкусов ананаса, цитрусовых и тропических фруктов.",
+  },
 ];
 
 (() => {
