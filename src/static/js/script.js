@@ -2333,6 +2333,13 @@ const DB = [
     rating: 2,
     description: "Бюджетный тропический вкус. Позиционируется как премиум, но им и не пахнет.",
   },
+  {
+    id: 332,
+    brand: "Gorilla",
+    flavor: "Pomegranate Raspberry",
+    rating: 2,
+    description: "Блеклый вкус граната с лёгкой ноткой малины на послевкусии.",
+  },
 ];
 
 (() => {
