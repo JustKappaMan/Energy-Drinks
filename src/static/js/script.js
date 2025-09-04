@@ -2347,6 +2347,13 @@ const DB = [
     rating: 2,
     description: "Не особо приятный вкус грейпфрута. Неприятная нотка подсластителя.",
   },
+  {
+    id: 334,
+    brand: "PULSEUP",
+    flavor: "Pina Colada Energy",
+    rating: 3,
+    description: "Неплохой вкус кокоса с кислинкой ананаса.",
+  },
 ];
 
 (() => {
