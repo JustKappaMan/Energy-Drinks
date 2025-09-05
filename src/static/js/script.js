@@ -2354,6 +2354,13 @@ const DB = [
     rating: 3,
     description: "Неплохой вкус кокоса с кислинкой ананаса.",
   },
+  {
+    id: 335,
+    brand: "Flash Up",
+    flavor: "Banana Feijoa",
+    rating: 3,
+    description: "Вкус бананового мармелада с характерной кислинкой фейхоа.",
+  },
 ];
 
 (() => {
