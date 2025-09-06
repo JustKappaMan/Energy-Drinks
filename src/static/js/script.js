@@ -2361,6 +2361,13 @@ const DB = [
     rating: 3,
     description: "Вкус бананового мармелада с характерной кислинкой фейхоа.",
   },
+  {
+    id: 336,
+    brand: "Black Wolf",
+    flavor: "Wild Berry",
+    rating: 2,
+    description: "Дешевый ягодный вкус.",
+  },
 ];
 
 (() => {
