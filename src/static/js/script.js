@@ -2389,6 +2389,13 @@ const DB = [
     rating: 1,
     description: "Мерзкий вкус манго. Нотки подсластителя.",
   },
+  {
+    id: 340,
+    brand: "Double Pull",
+    flavor: "Pomegranate Cherry",
+    rating: 2,
+    description: "Посредственные и блеклые вкусы граната и вишни.",
+  },
 ];
 
 (() => {
