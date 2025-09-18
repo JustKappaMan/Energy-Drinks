@@ -2396,6 +2396,13 @@ const DB = [
     rating: 2,
     description: "Посредственные и блеклые вкусы граната и вишни.",
   },
+  {
+    id: 341,
+    brand: "HQD Energy",
+    flavor: "Strawberry Cream By Scally Milano",
+    rating: 4,
+    description: "Приятный вкус клубники со сливками. Нотки клубничного сока. Хороший состав.",
+  },
 ];
 
 (() => {
