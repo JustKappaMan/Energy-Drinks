@@ -2431,6 +2431,13 @@ const DB = [
     rating: 2,
     description: "Химозный вкус арбуза. Сильная кислинка.",
   },
+  {
+    id: 346,
+    brand: "Flash Up",
+    flavor: "Blueberry Donut",
+    rating: 2,
+    description: "Вкус черничной пончиковой глазури. Кислинка тут абсолютно лишняя.",
+  },
 ];
 
 (() => {
