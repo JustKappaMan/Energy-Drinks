@@ -2424,6 +2424,13 @@ const DB = [
     rating: 3,
     description: "Пустоватый вкус вишневого леденца. Сильная, но приятная кислинка.",
   },
+  {
+    id: 345,
+    brand: "Toxic Waste Energy",
+    flavor: "Watermelon",
+    rating: 2,
+    description: "Химозный вкус арбуза. Сильная кислинка.",
+  },
 ];
 
 (() => {
