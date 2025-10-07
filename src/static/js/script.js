@@ -2459,6 +2459,13 @@ const DB = [
     rating: 3,
     description: "Пустоватый вкус яблочного леденца. Сильная, но приятная кислинка.",
   },
+  {
+    id: 350,
+    brand: "Lit Energy",
+    flavor: "Malina Crush",
+    rating: 3,
+    description: "Приятные вкус и аромат свежей малины.",
+  },
 ];
 
 (() => {
