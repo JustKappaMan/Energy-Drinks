@@ -2452,6 +2452,13 @@ const DB = [
     rating: 2,
     description: "Посредственный вкус манго.",
   },
+  {
+    id: 349,
+    brand: "Toxic Waste Energy",
+    flavor: "Apple",
+    rating: 3,
+    description: "Пустоватый вкус яблочного леденца. Сильная, но приятная кислинка.",
+  },
 ];
 
 (() => {
