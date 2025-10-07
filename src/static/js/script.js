@@ -2445,6 +2445,13 @@ const DB = [
     rating: 3,
     description: "Просто нормальный тропический вкус. Доминирует манго. Полностью на сахаре.",
   },
+  {
+    id: 348,
+    brand: "Tornado Energy",
+    flavor: "Boost",
+    rating: 2,
+    description: "Посредственный вкус манго.",
+  },
 ];
 
 (() => {
