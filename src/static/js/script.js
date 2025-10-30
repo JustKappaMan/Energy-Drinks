@@ -2501,6 +2501,13 @@ const DB = [
     rating: 3,
     description: "Хорошая реалзация бабл-гам. Нет мерзкой аромки. Вкус достигается смесью соков.",
   },
+  {
+    id: 356,
+    brand: "Adrenaline Rush",
+    flavor: "Spicy Energy",
+    rating: 2,
+    description: "Плоский вкус граната с ноткой клюквы. Остроты нет.",
+  },
 ];
 
 (() => {
