@@ -2508,6 +2508,13 @@ const DB = [
     rating: 2,
     description: "Плоский вкус граната с ноткой клюквы. Остроты нет.",
   },
+  {
+    id: 357,
+    brand: "PULSEUP",
+    flavor: "Multivitamin",
+    rating: 3,
+    description: "Приятный вкус экстракта ацеролы.",
+  },
 ];
 
 (() => {
