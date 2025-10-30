@@ -2522,6 +2522,13 @@ const DB = [
     rating: 2,
     description: "Водянистые и не особо приятные вкусы вишни и сливы.",
   },
+  {
+    id: 359,
+    brand: "Monster Energy",
+    flavor: "Rehab Peach Tea",
+    rating: 4,
+    description: "Вкусный персиковый чай.",
+  },
 ];
 
 (() => {
