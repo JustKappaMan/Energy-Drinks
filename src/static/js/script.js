@@ -2515,6 +2515,13 @@ const DB = [
     rating: 3,
     description: "Приятный вкус экстракта ацеролы.",
   },
+  {
+    id: 358,
+    brand: "Ninja Star",
+    flavor: "Original Cherry",
+    rating: 2,
+    description: "Водянистые и не особо приятные вкусы вишни и сливы.",
+  },
 ];
 
 (() => {
