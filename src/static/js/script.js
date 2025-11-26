@@ -2543,7 +2543,7 @@ const DB = [
   thBrand.append("Бренд", sortIcon.cloneNode());
 
   const thFlavor = document.createElement("th");
-  thFlavor.innerHTML = "Вкус";
+  thFlavor.textContent = "Вкус";
 
   const thRating = document.createElement("th");
   thRating.style.width = "10%";
@@ -2551,7 +2551,7 @@ const DB = [
   thRating.append("Оценка", sortIcon.cloneNode());
 
   const thDescription = document.createElement("th");
-  thDescription.innerHTML = "Описание";
+  thDescription.textContent = "Описание";
 
   const thead = document.createElement("thead");
   thead.classList.add("text-center");
@@ -2570,15 +2570,15 @@ const DB = [
   for (const record of DB) {
     const row = tbody.insertRow();
 
-    row.insertCell().innerHTML = record.brand;
-    row.insertCell().innerHTML = record.flavor;
+    row.insertCell().textContent = record.brand;
+    row.insertCell().textContent = record.flavor;
 
     const ratingCell = row.insertCell();
     ratingCell.dataset.rating = record.rating;
     ratingCell.style.textAlign = "center";
-    ratingCell.innerHTML = ratingMapping.get(record.rating);
+    ratingCell.textContent = ratingMapping.get(record.rating);
 
-    row.insertCell().innerHTML = record.description;
+    row.insertCell().textContent = record.description;
   }
 
   const rows = [...tbody.children];
@@ -2589,7 +2589,7 @@ const DB = [
     if (rowsSortedByBrand) {
       rows.reverse();
     } else {
-      rows.sort((a, b) => a.children[0].innerHTML.localeCompare(b.children[0].innerHTML));
+      rows.sort((a, b) => a.children[0].textContent.localeCompare(b.children[0].textContent));
     }
     tbody.replaceChildren(...rows);
     rowsSortedByBrand = true;
