@@ -2529,6 +2529,13 @@ const DB = [
     rating: 4,
     description: "Вкусный персиковый чай.",
   },
+  {
+    id: 360,
+    brand: "Haunt",
+    flavor: "White Sakura",
+    rating: 2,
+    description: "Химозный цветочный вкус с фруктовой кислинкой. Нотки подсластителей.",
+  },
 ];
 
 (() => {
