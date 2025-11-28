@@ -2585,6 +2585,13 @@ const DB = [
     rating: 4,
     description: "Приятный вкус сладкого клубничного сока. И да, он есть в составе.",
   },
+  {
+    id: 368,
+    brand: "HQD Energy",
+    flavor: "Pomegrenade by Aly «Hulk» Bagov",
+    rating: 4,
+    description: "Приятный вкус сладкого гранатового сока. И да, он есть в составе.",
+  },
 ];
 
 (() => {
