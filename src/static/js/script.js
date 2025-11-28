@@ -2550,6 +2550,13 @@ const DB = [
     rating: 2,
     description: "Непонятная смесь вкусов цитрусовых, ягод и манго.",
   },
+  {
+    id: 363,
+    brand: "Red Wolf",
+    flavor: "Passion Orange",
+    rating: 2,
+    description: "Менее вкусная версия «Adrenaline Rush Original».",
+  },
 ];
 
 (() => {
