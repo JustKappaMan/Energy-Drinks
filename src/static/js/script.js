@@ -2592,6 +2592,13 @@ const DB = [
     rating: 4,
     description: "Приятный вкус сладкого гранатового сока. И да, он есть в составе.",
   },
+  {
+    id: 368,
+    brand: "Monster Energy",
+    flavor: "Lando Norris",
+    rating: 3,
+    description: "Смесь вкусов дыни и кислых цитрусовых. Обволакивающие сахзамы.",
+  },
 ];
 
 (() => {
