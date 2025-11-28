@@ -2557,6 +2557,13 @@ const DB = [
     rating: 2,
     description: "Менее вкусная версия «Adrenaline Rush Original».",
   },
+  {
+    id: 364,
+    brand: "Red Wolf",
+    flavor: "Classic",
+    rating: 2,
+    description: "Типичный оригинальный вкус. Похож на «Drive Me Original».",
+  },
 ];
 
 (() => {
