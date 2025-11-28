@@ -2578,6 +2578,13 @@ const DB = [
     rating: 2,
     description: "Типичный оригинальный вкус с кислинкой по завыщенной цене.",
   },
+  {
+    id: 367,
+    brand: "HQD Energy",
+    flavor: "Pineberry By Wipo",
+    rating: 4,
+    description: "Приятный вкус сладкого клубничного сока. И да, он есть в составе.",
+  },
 ];
 
 (() => {
