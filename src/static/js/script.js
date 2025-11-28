@@ -2564,6 +2564,13 @@ const DB = [
     rating: 2,
     description: "Типичный оригинальный вкус. Похож на «Drive Me Original».",
   },
+  {
+    id: 365,
+    brand: "Invoke",
+    flavor: "Blueberry",
+    rating: 2,
+    description: "Неприятный вкус кислого голубичного леденца.",
+  },
 ];
 
 (() => {
