@@ -2613,6 +2613,13 @@ const DB = [
     rating: 2,
     description: "Типичный проходной вкус мохито.",
   },
+  {
+    id: 372,
+    brand: "My Element",
+    flavor: "Бабл-Гам",
+    rating: 2,
+    description: "Вкус клубнично-банановой жвачки. С кислинкой.",
+  },
 ];
 
 (() => {
