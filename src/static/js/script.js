@@ -2606,6 +2606,13 @@ const DB = [
     rating: 1,
     description: "Водянистый вкус переспелой вишневой мякоти.",
   },
+  {
+    id: 371,
+    brand: "Invoke",
+    flavor: "Mojito",
+    rating: 2,
+    description: "Типичный проходной вкус мохито.",
+  },
 ];
 
 (() => {
