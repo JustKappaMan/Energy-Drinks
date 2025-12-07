@@ -2627,6 +2627,13 @@ const DB = [
     rating: 4,
     description: "Приятный тропический вкус гуавы. Обволакивающий сахзам.",
   },
+  {
+    id: 374,
+    brand: "Monster Energy",
+    flavor: "Juice Viking Berry",
+    rating: 4,
+    description: "Напоминает ягодный морс. Смесь вкусов вишни, черники, ежевики и черной смородины.",
+  },
 ];
 
 (() => {
