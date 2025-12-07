@@ -2620,6 +2620,13 @@ const DB = [
     rating: 2,
     description: "Вкус клубнично-банановой жвачки. С кислинкой.",
   },
+  {
+    id: 373,
+    brand: "Monster Energy",
+    flavor: "Ultra Vice Guava",
+    rating: 4,
+    description: "Приятный тропический вкус гуавы. Обволакивающий сахзам.",
+  },
 ];
 
 (() => {
