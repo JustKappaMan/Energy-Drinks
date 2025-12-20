@@ -2669,6 +2669,13 @@ const DB = [
     rating: 3,
     description: "Вкус леденца со вкусом зелёного яблока.",
   },
+  {
+    id: 380,
+    brand: "WK UP",
+    flavor: "Pumpkin Jack",
+    rating: 3,
+    description: "Вкус апельсина с ананасовой ноткой.",
+  },
 ];
 
 (() => {
