@@ -2662,6 +2662,13 @@ const DB = [
     rating: 3,
     description: "Типичный вкус обычной (не голубой) малины.",
   },
+  {
+    id: 379,
+    brand: "WK UP",
+    flavor: "Swamp Water",
+    rating: 3,
+    description: "Вкус леденца со вкусом зелёного яблока.",
+  },
 ];
 
 (() => {
