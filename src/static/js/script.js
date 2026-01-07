@@ -2690,6 +2690,13 @@ const DB = [
     rating: 3,
     description: "Вкус вишневого леденца с кислинкой.",
   },
+  {
+    id: 383,
+    brand: "PWR BRU",
+    flavor: "DYNAMO FRUIT PUNCH",
+    rating: 3,
+    description: "Вкус тутти-фрутти с ягодными нотками.",
+  },
 ];
 
 (() => {
