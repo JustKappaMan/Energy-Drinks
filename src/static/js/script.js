@@ -2683,6 +2683,13 @@ const DB = [
     rating: 3,
     description: "Вкус апельсина с легкой сливочностью.",
   },
+  {
+    id: 382,
+    brand: "PWR BRU",
+    flavor: "DIABLO CHERRY",
+    rating: 3,
+    description: "Вкус вишневого леденца с кислинкой.",
+  },
 ];
 
 (() => {
