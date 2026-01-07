@@ -2697,6 +2697,13 @@ const DB = [
     rating: 3,
     description: "Вкус тутти-фрутти с ягодными нотками.",
   },
+  {
+    id: 384,
+    brand: "PWR BRU",
+    flavor: "MAVERICK BERRY",
+    rating: 3,
+    description: "Смесь вкусов черники, черной смородины и малины.",
+  },
 ];
 
 (() => {
