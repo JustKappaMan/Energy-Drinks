@@ -2676,6 +2676,13 @@ const DB = [
     rating: 3,
     description: "Вкус апельсина с ананасовой ноткой.",
   },
+  {
+    id: 381,
+    brand: "PWR BRU",
+    flavor: "ORIGIN",
+    rating: 3,
+    description: "Вкус апельсина с легкой сливочностью.",
+  },
 ];
 
 (() => {
