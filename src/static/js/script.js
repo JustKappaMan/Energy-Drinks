@@ -2725,6 +2725,13 @@ const DB = [
     rating: 4,
     description: "Приятный и насыщенный вкус спелой черешни.",
   },
+  {
+    id: 388,
+    brand: "HQD Energy",
+    flavor: "Mandarin Ginger",
+    rating: 3,
+    description: "Обычный вкус мандарина. Острое послевкусие с яркими нотками имбиря.",
+  },
 ];
 
 (() => {
