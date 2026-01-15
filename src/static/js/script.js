@@ -2722,8 +2722,8 @@ const DB = [
     id: 387,
     brand: "Hell",
     flavor: "Black Cherry",
-    rating: 5,
-    description: "Очень приятный и насыщенный вкус спелой черешни.",
+    rating: 4,
+    description: "Приятный и насыщенный вкус спелой черешни.",
   },
 ];
 
