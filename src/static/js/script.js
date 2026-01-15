@@ -2704,6 +2704,13 @@ const DB = [
     rating: 3,
     description: "Смесь вкусов черники, черной смородины и малины.",
   },
+  {
+    id: 385,
+    brand: "Bombbar",
+    flavor: "Mojito",
+    rating: 2,
+    description: "Посредственный вкус мохито со странной ноткой.",
+  },
 ];
 
 (() => {
