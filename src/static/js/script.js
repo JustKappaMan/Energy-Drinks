@@ -2715,8 +2715,8 @@ const DB = [
     id: 386,
     brand: "PULSEUP",
     flavor: "Cocktail Edition - Mojito",
-    rating: 3,
-    description: "Неплохой бюджетный энергетик со вкусом лайма и мяты.",
+    rating: 2,
+    description: "Обычный вкус лайма и мяты со странной ноткой.",
   },
   {
     id: 387,
