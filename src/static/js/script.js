@@ -2098,7 +2098,7 @@ const DB = [
   {
     id: 298,
     brand: "PULSEUP",
-    flavor: "Prosecco Energy",
+    flavor: "Cocktail Edition - Prosecco Energy",
     rating: 3,
     description: "Приятный вкус клубники с ноткой белого винограда.",
   },
@@ -2350,7 +2350,7 @@ const DB = [
   {
     id: 334,
     brand: "PULSEUP",
-    flavor: "Pina Colada Energy",
+    flavor: "Cocktail Edition - Pina Colada Energy",
     rating: 3,
     description: "Неплохой вкус кокоса с кислинкой ананаса.",
   },
