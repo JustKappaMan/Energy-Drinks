@@ -2718,6 +2718,13 @@ const DB = [
     rating: 3,
     description: "Неплохой бюджетный энергетик со вкусом лайма и мяты.",
   },
+  {
+    id: 387,
+    brand: "Hell",
+    flavor: "Black Cherry",
+    rating: 5,
+    description: "Очень приятный и насыщенный вкус спелой черешни.",
+  },
 ];
 
 (() => {
