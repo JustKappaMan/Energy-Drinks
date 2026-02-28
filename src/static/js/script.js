@@ -2739,6 +2739,13 @@ const DB = [
     rating: 3,
     description: "Просто приятный вкус персика.",
   },
+  {
+    id: 390,
+    brand: "Double Pull",
+    flavor: "White Peach",
+    rating: 3,
+    description: "Водянистый вкус персика. За 40 рублей пойдет.",
+  },
 ];
 
 (() => {
