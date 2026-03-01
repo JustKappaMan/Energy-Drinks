@@ -2746,6 +2746,13 @@ const DB = [
     rating: 3,
     description: "Водянистый вкус персика. За 40 рублей пойдет.",
   },
+  {
+    id: 391,
+    brand: "Double Pull",
+    flavor: "Blueberry Iceberry",
+    rating: 3,
+    description: "Водянистый вкус голубики и приятный холодок. За 40 рублей пойдет.",
+  },
 ];
 
 (() => {
