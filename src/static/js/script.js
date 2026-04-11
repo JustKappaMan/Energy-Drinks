@@ -2837,6 +2837,13 @@ const DB = [
     rating: 3,
     description: "Неплохой нехимозный вкус малины.",
   },
+  {
+    id: 404,
+    brand: "Cayman",
+    flavor: "Original Energy",
+    rating: 1,
+    description: "Неприятный мультифруктовый вкус. Аспартам в составе. Ещё и недешевый.",
+  },
 ];
 
 (() => {
