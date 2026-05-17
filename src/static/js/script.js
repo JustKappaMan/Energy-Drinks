@@ -2949,6 +2949,13 @@ const DB = [
     rating: 1,
     description: "Словно хлебнул дынной вонючки для автомобиля.",
   },
+  {
+    id: 420,
+    brand: "Gorilla",
+    flavor: "Bananas",
+    rating: 3,
+    description: "Смесь вкусов бананового мармелада и ананаса.",
+  },
 ];
 
 (() => {
