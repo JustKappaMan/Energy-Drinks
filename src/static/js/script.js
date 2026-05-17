@@ -2928,6 +2928,13 @@ const DB = [
     rating: 2,
     description: "Непонятный вкус. Смесь тропического и цитрусового.",
   },
+  {
+    id: 417,
+    brand: "Volt Energy",
+    flavor: "Ягодное Драже",
+    rating: 3,
+    description: "Вкус ягодного «Skittles» с нотками сахарной глазури.",
+  },
 ];
 
 (() => {
