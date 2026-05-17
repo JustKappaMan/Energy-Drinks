@@ -2900,6 +2900,13 @@ const DB = [
     rating: 4,
     description: "Очень приятный и насыщенный вкус малины.",
   },
+  {
+    id: 413,
+    brand: "Bombbar",
+    flavor: "Belini",
+    rating: 2,
+    description: "Очень водянистый вкус персика.",
+  },
 ];
 
 (() => {
