@@ -2935,6 +2935,13 @@ const DB = [
     rating: 3,
     description: "Вкус ягодного «Skittles» с нотками сахарной глазури.",
   },
+  {
+    id: 418,
+    brand: "Adrenaline Rush",
+    flavor: "Юдзу-Клубника-Каламанси",
+    rating: 2,
+    description: "Блеклый вкус. Неприятная кислинка.",
+  },
 ];
 
 (() => {
