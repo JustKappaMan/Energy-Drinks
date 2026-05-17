@@ -2942,6 +2942,13 @@ const DB = [
     rating: 2,
     description: "Блеклый вкус. Неприятная кислинка.",
   },
+  {
+    id: 419,
+    brand: "Adrenaline Rush",
+    flavor: "Дыня-Лайм-Мята",
+    rating: 1,
+    description: "Словно хлебнул дынной вонючки для автомобиля.",
+  },
 ];
 
 (() => {
