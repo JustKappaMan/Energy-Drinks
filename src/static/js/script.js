@@ -2970,6 +2970,13 @@ const DB = [
     rating: 2,
     description: "Типичный дешёвый мультифруктовый вкус с кислинкой.",
   },
+  {
+    id: 423,
+    brand: "Tornado Energy",
+    flavor: "Berrycream",
+    rating: 3,
+    description: "Вкус несладкой клубники со сливками. Не хватает насыщенности.",
+  },
 ];
 
 (() => {
