@@ -2977,6 +2977,13 @@ const DB = [
     rating: 3,
     description: "Вкус несладкой клубники со сливками. Не хватает насыщенности.",
   },
+  {
+    id: 424,
+    brand: "Flash Up",
+    flavor: "Pomegranate Raspberry",
+    rating: 3,
+    description: "Приятный натуральный вкус малины. Гранат практически не ощущается.",
+  },
 ];
 
 (() => {
