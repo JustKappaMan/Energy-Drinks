@@ -3005,6 +3005,13 @@ const DB = [
     rating: 3,
     description: "Сладковатый ягодный микс с горчинкой.",
   },
+  {
+    id: 428,
+    brand: "Flash Up",
+    flavor: "Game Mode XP",
+    rating: 3,
+    description: "Вкус кислого мармелада и колы.",
+  },
 ];
 
 (() => {
