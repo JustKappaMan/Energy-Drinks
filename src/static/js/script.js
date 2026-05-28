@@ -2998,6 +2998,13 @@ const DB = [
     rating: 3,
     description: "Вкус цитрусовых и чего-то тропического. Похож на оригинальный «Adrenaline Rush».",
   },
+  {
+    id: 427,
+    brand: "Flash Up",
+    flavor: "Game Mode MP",
+    rating: 3,
+    description: "Сладковатый ягодный микс с горчинкой.",
+  },
 ];
 
 (() => {
