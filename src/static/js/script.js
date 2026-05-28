@@ -3012,6 +3012,13 @@ const DB = [
     rating: 3,
     description: "Вкус кислого мармелада и колы.",
   },
+  {
+    id: 429,
+    brand: "Red Bull",
+    flavor: "Green Edition Dragonfruit",
+    rating: 4,
+    description: "Приятный, лёгкий, кисловатый, фруктовый вкус.",
+  },
 ];
 
 (() => {
