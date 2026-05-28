@@ -2991,6 +2991,13 @@ const DB = [
     rating: 1,
     description: "Вкус растворимого кофе с кислинкой на послевкусии.",
   },
+  {
+    id: 426,
+    brand: "Lit Energy",
+    flavor: "Citrus Punch",
+    rating: 3,
+    description: "Вкус цитрусовых и чего-то тропического. Похож на оригинальный «Adrenaline Rush».",
+  },
 ];
 
 (() => {
