@@ -3037,7 +3037,7 @@ const DB = [
     id: 432,
     brand: "Volt Energy",
     flavor: "Сакура Персик",
-    rating: 3,
+    rating: 2,
     description: "Водянистый вкус персика с цветочными нотами.",
   },
   {
