@@ -3026,6 +3026,13 @@ const DB = [
     rating: 2,
     description: "Блеклые вкусы помело и ананаса. Неприятные подсластители.",
   },
+  {
+    id: 431,
+    brand: "Tornado Energy",
+    flavor: "Sour & Marm",
+    rating: 3,
+    description: "Вкус слегка кислого мармелада.",
+  },
 ];
 
 (() => {
