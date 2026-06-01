@@ -3033,6 +3033,13 @@ const DB = [
     rating: 3,
     description: "Вкус слегка кислого мармелада.",
   },
+  {
+    id: 432,
+    brand: "Volt Energy",
+    flavor: "Сакура Персик",
+    rating: 3,
+    description: "Водянистый вкус персика с цветочными нотами.",
+  },
 ];
 
 (() => {
