@@ -3047,6 +3047,13 @@ const DB = [
     rating: 3,
     description: "Вкус сливы с привкусом сладкого бисквита.",
   },
+  {
+    id: 434,
+    brand: "Monster Energy",
+    flavor: "Valentino Rossi Zero Sugar",
+    rating: 3,
+    description: "Водянистый, но приятный вкус цитрусовых. Конкретно — апельсиновой цедры.",
+  },
 ];
 
 (() => {
