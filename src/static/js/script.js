@@ -3075,6 +3075,13 @@ const DB = [
     rating: 4,
     description: "Яркий и очень приятный вкус личи.",
   },
+  {
+    id: 438,
+    brand: "Flash Up",
+    flavor: "Zero Mode Peach Bilberry",
+    rating: 2,
+    description: "Блеклые персик и голубика. Слегка приторная сладость. Характерной кислинки нет.",
+  },
 ];
 
 (() => {
