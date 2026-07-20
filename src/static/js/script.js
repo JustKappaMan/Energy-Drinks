@@ -3099,83 +3099,91 @@ const DB = [
 ];
 
 (() => {
-  const sortIcon = document.createElement("img");
-  sortIcon.src = "static/images/sort.svg";
-  sortIcon.width = 16;
-  sortIcon.height = 16;
-  sortIcon.style.marginLeft = "8px";
+  const state = {
+    data: [...DB],
+    sortConfig: { key: null, direction: 'asc' }
+  };
 
-  const thBrand = document.createElement("th");
-  thBrand.style.cursor = "pointer";
-  thBrand.append("Бренд", sortIcon.cloneNode());
+  const getSortIcon = (columnKey) => {
+    const isActive = state.sortConfig.key === columnKey;
+    const opacityClass = isActive ? '' : 'inactive';
+    
+    return `<img src="static/images/sort.svg" width="16" height="16" class="sort-icon ${opacityClass}" alt="Сортировка">`;
+  };
 
-  const thFlavor = document.createElement("th");
-  thFlavor.textContent = "Вкус";
+  const renderTable = () => {
+    const tableRoot = document.getElementById("table-root");
+    
+    const html = `
+      <table class="table table-striped table-bordered align-middle">
+        <thead class="text-center">
+          <tr>
+            <th data-sort="brand" class="sortable-col" role="button" title="Сортировать по бренду">
+              Бренд ${getSortIcon('brand')}
+            </th>
+            <th>Вкус</th>
+            <th data-sort="rating" class="sortable-col" role="button" style="width: 10%" title="Сортировать по оценке">
+              Оценка ${getSortIcon('rating')}
+            </th>
+            <th>Описание</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${state.data.map(item => `
+            <tr>
+              <td>${item.brand}</td>
+              <td>${item.flavor}</td>
+              <td class="text-center">
+                 <span role="img" aria-label="Оценка: ${item.rating} из 5">${"⭐".repeat(item.rating)}</span>
+              </td>
+              <td>${item.description}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    `;
 
-  const thRating = document.createElement("th");
-  thRating.style.width = "10%";
-  thRating.style.cursor = "pointer";
-  thRating.append("Оценка", sortIcon.cloneNode());
+    tableRoot.innerHTML = html;
 
-  const thDescription = document.createElement("th");
-  thDescription.textContent = "Описание";
+    bindEvents();
+  };
 
-  const thead = document.createElement("thead");
-  thead.classList.add("text-center");
-  const theadRow = thead.insertRow();
-  theadRow.append(thBrand, thFlavor, thRating, thDescription);
-
-  const tbody = document.createElement("tbody");
-  const ratingMapping = new Map([
-    [1, "⭐"],
-    [2, "⭐⭐"],
-    [3, "⭐⭐⭐"],
-    [4, "⭐⭐⭐⭐"],
-    [5, "⭐⭐⭐⭐⭐"],
-  ]);
-
-  for (const record of DB) {
-    const row = tbody.insertRow();
-
-    row.insertCell().textContent = record.brand;
-    row.insertCell().textContent = record.flavor;
-
-    const ratingCell = row.insertCell();
-    ratingCell.dataset.rating = record.rating;
-    ratingCell.style.textAlign = "center";
-    ratingCell.textContent = ratingMapping.get(record.rating);
-
-    row.insertCell().textContent = record.description;
-  }
-
-  const rows = [...tbody.children];
-  let rowsSortedByBrand = false;
-  let rowsSortedByRating = false;
-
-  thBrand.addEventListener("click", () => {
-    if (rowsSortedByBrand) {
-      rows.reverse();
-    } else {
-      rows.sort((a, b) => a.children[0].textContent.localeCompare(b.children[0].textContent));
+  const handleSort = (key) => {
+    let direction = 'asc';
+    
+    if (state.sortConfig.key === key && state.sortConfig.direction === 'asc') {
+      direction = 'desc';
     }
-    tbody.replaceChildren(...rows);
-    rowsSortedByBrand = true;
-    rowsSortedByRating = false;
-  });
+    
+    state.sortConfig = { key, direction };
 
-  thRating.addEventListener("click", () => {
-    if (rowsSortedByRating) {
-      rows.reverse();
-    } else {
-      rows.sort((a, b) => b.children[2].dataset.rating - a.children[2].dataset.rating);
-    }
-    tbody.replaceChildren(...rows);
-    rowsSortedByBrand = false;
-    rowsSortedByRating = true;
-  });
+    state.data.sort((a, b) => {
+      let valA = a[key];
+      let valB = b[key];
 
-  const table = document.createElement("table");
-  table.classList.add("table", "table-striped", "table-bordered", "align-middle");
-  table.append(thead, tbody);
-  document.querySelector("main").append(table);
+      if (typeof valA === 'string' && typeof valB === 'string') {
+        return direction === 'asc' 
+          ? valA.localeCompare(valB) 
+          : valB.localeCompare(valA);
+      }
+
+      if (valA < valB) return direction === 'asc' ? -1 : 1;
+      if (valA > valB) return direction === 'asc' ? 1 : -1;
+      return 0;
+    });
+
+    renderTable();
+  };
+
+  const bindEvents = () => {
+    const headers = document.querySelectorAll('th.sortable-col');
+    headers.forEach(header => {
+      header.addEventListener('click', (e) => {
+        const sortKey = e.currentTarget.dataset.sort;
+        handleSort(sortKey);
+      });
+    });
+  };
+
+  renderTable();
 })();
