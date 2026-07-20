@@ -3158,8 +3158,8 @@ const DB = [
     state.sortConfig = { key, direction };
 
     state.data.sort((a, b) => {
-      let valA = a[key];
-      let valB = b[key];
+      const valA = a[key];
+      const valB = b[key];
 
       if (typeof valA === 'string' && typeof valB === 'string') {
         return direction === 'asc' 
