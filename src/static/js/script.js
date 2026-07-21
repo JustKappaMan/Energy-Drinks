@@ -3121,7 +3121,7 @@ const DB = [
     const tableRoot = document.getElementById("table-root");
 
     const html = `
-      <div class="table-responsive shadow-sm rounded">
+      <div class="table-responsive shadow-sm">
         <table class="table table-striped table-bordered align-middle mb-0">
           <thead class="text-center text-nowrap">
             <tr>
