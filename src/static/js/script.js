@@ -3112,6 +3112,11 @@ const DB = [
     return `<img src="static/images/sort.svg" width="16" height="16" class="sort-icon ${opacityClass}" alt="Сортировка">`;
   };
 
+  const getAriaSort = (columnKey) => {
+    if (state.sortConfig.key !== columnKey) return "none";
+    return state.sortConfig.direction === "asc" ? "ascending" : "descending";
+  };
+
   const renderTable = () => {
     const tableRoot = document.getElementById("table-root");
 
@@ -3120,11 +3125,11 @@ const DB = [
         <table class="table table-striped table-bordered align-middle mb-0">
           <thead class="text-center text-nowrap">
             <tr>
-              <th data-sort="brand" class="sortable-col" role="button" title="Сортировать по бренду">
+              <th data-sort="brand" class="sortable-col" role="button" tabindex="0" aria-sort="${getAriaSort("brand")}" title="Сортировать по бренду">
                 Бренд ${getSortIcon("brand")}
               </th>
               <th>Вкус</th>
-              <th data-sort="rating" class="sortable-col" role="button" title="Сортировать по оценке" style="min-width: 120px;">
+              <th data-sort="rating" class="sortable-col" role="button" tabindex="0" aria-sort="${getAriaSort("rating")}" title="Сортировать по оценке" style="min-width: 120px;">
                 Оценка ${getSortIcon("rating")}
               </th>
               <th style="min-width: 250px;">Описание</th>
@@ -3151,8 +3156,6 @@ const DB = [
     `;
 
     tableRoot.innerHTML = html;
-
-    bindEvents();
   };
 
   const handleSort = (key) => {
@@ -3169,7 +3172,9 @@ const DB = [
       const valB = b[key];
 
       if (typeof valA === "string" && typeof valB === "string") {
-        return direction === "asc" ? valA.localeCompare(valB) : valB.localeCompare(valA);
+        return direction === "asc"
+          ? valA.localeCompare(valB, "ru", { numeric: true })
+          : valB.localeCompare(valA, "ru", { numeric: true });
       }
 
       if (valA < valB) return direction === "asc" ? -1 : 1;
@@ -3180,15 +3185,27 @@ const DB = [
     renderTable();
   };
 
-  const bindEvents = () => {
-    const headers = document.querySelectorAll("th.sortable-col");
-    headers.forEach((header) => {
-      header.addEventListener("click", (e) => {
-        const sortKey = e.currentTarget.dataset.sort;
-        handleSort(sortKey);
-      });
+  const initEvents = () => {
+    const tableRoot = document.getElementById("table-root");
+
+    tableRoot.addEventListener("click", (e) => {
+      const header = e.target.closest("th.sortable-col");
+      if (header) {
+        handleSort(header.dataset.sort);
+      }
+    });
+
+    tableRoot.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        const header = e.target.closest("th.sortable-col");
+        if (header) {
+          e.preventDefault();
+          handleSort(header.dataset.sort);
+        }
+      }
     });
   };
 
+  initEvents();
   renderTable();
 })();
