@@ -1,6 +1,6 @@
 # Energy Drinks
-![MIT License](https://img.shields.io/github/license/JustKappaMan/Energy-Drinks)
-![Checked with ESLint](https://img.shields.io/badge/ESLint-checked-blueviolet)
+[![MIT License](https://img.shields.io/github/license/JustKappaMan/Energy-Drinks?style=flat)](LICENSE)
+[![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev/)
 
 Субъективный рейтинг энергетических напитков.
 
