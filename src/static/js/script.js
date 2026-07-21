@@ -3116,36 +3116,38 @@ const DB = [
     const tableRoot = document.getElementById("table-root");
 
     const html = `
-      <table class="table table-striped table-bordered align-middle">
-        <thead class="text-center">
-          <tr>
-            <th data-sort="brand" class="sortable-col" role="button" title="Сортировать по бренду">
-              Бренд ${getSortIcon("brand")}
-            </th>
-            <th>Вкус</th>
-            <th data-sort="rating" class="sortable-col" role="button" style="width: 10%" title="Сортировать по оценке">
-              Оценка ${getSortIcon("rating")}
-            </th>
-            <th>Описание</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${state.data
-            .map(
-              (item) => `
+      <div class="table-responsive shadow-sm rounded">
+        <table class="table table-striped table-bordered align-middle mb-0">
+          <thead class="text-center text-nowrap">
             <tr>
-              <td>${item.brand}</td>
+              <th data-sort="brand" class="sortable-col" role="button" title="Сортировать по бренду">
+                Бренд ${getSortIcon("brand")}
+              </th>
+              <th>Вкус</th>
+              <th data-sort="rating" class="sortable-col" role="button" title="Сортировать по оценке" style="min-width: 120px;">
+                Оценка ${getSortIcon("rating")}
+              </th>
+              <th style="min-width: 250px;">Описание</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${state.data
+              .map(
+                (item) => `
+            <tr>
+              <td class="text-nowrap">${item.brand}</td>
               <td>${item.flavor}</td>
-              <td class="text-center">
+              <td class="text-center text-nowrap">
                  <span role="img" aria-label="Оценка: ${item.rating} из 5">${"⭐".repeat(item.rating)}</span>
               </td>
               <td>${item.description}</td>
             </tr>
           `,
-            )
-            .join("")}
-        </tbody>
-      </table>
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
     `;
 
     tableRoot.innerHTML = html;
