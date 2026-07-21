@@ -20,8 +20,7 @@ const DB = [
     brand: "Gorilla",
     flavor: "Extra Energy",
     rating: 1,
-    description:
-      "Представьте что в оригинальный «Gorilla» добавили ложку растворимого кофе. Мерзость.",
+    description: "Представьте что в оригинальный «Gorilla» добавили ложку растворимого кофе. Мерзость.",
   },
   {
     id: 4,
@@ -253,8 +252,7 @@ const DB = [
     brand: "Monster Energy",
     flavor: "Ultra White Zero",
     rating: 2,
-    description:
-      "Обволакивающий вкус подсластителей с нотками цитруса. Не понимаю всеобщего обожания.",
+    description: "Обволакивающий вкус подсластителей с нотками цитруса. Не понимаю всеобщего обожания.",
   },
   {
     id: 37,
@@ -1475,8 +1473,7 @@ const DB = [
     brand: "Lit Energy",
     flavor: "Mango Coconut",
     rating: 3,
-    description:
-      "На удивление не мерзкий вкус манго. Не слишком сладкий, практически не кислый.",
+    description: "На удивление не мерзкий вкус манго. Не слишком сладкий, практически не кислый.",
   },
   {
     id: 210,
@@ -2051,21 +2048,24 @@ const DB = [
     brand: "Adrenaline Rush",
     flavor: "Breeze Energy Ice Effect",
     rating: 2,
-    description: "Голубая малина и лайм ощущаются, но словно моющего средства хлебнул. Холодка практически нет. Ещё и цена заоблачная. Лучше 2 «Target Ice Berry» купить.",
+    description:
+      "Голубая малина и лайм ощущаются, но словно моющего средства хлебнул. Холодка практически нет. Ещё и цена заоблачная. Лучше 2 «Target Ice Berry» купить.",
   },
   {
     id: 292,
     brand: "Volt Energy",
     flavor: "Grape Guava",
     rating: 4,
-    description: "Яркий и приятный вкус красного винограда. Тропическая сладость гуавы. Подсластители практически не чувствуются.",
+    description:
+      "Яркий и приятный вкус красного винограда. Тропическая сладость гуавы. Подсластители практически не чувствуются.",
   },
   {
     id: 293,
     brand: "KIXX",
     flavor: "Полуночный Тропик-Микс",
     rating: 2,
-    description: "Доминируют вкусы арбуза и гуавы. Нетипичный тропический вкус, но реализация хромает. Просто невкусный.",
+    description:
+      "Доминируют вкусы арбуза и гуавы. Нетипичный тропический вкус, но реализация хромает. Просто невкусный.",
   },
   {
     id: 294,
@@ -2912,7 +2912,8 @@ const DB = [
     brand: "100 KWT",
     flavor: "Red Orange",
     rating: 3,
-    description: "Неплохой вкус красного апельсина и аромат грейпфрута. Яблочный сок и цитрусовые эфирные масла в составе.",
+    description:
+      "Неплохой вкус красного апельсина и аромат грейпфрута. Яблочный сок и цитрусовые эфирные масла в составе.",
   },
   {
     id: 415,
@@ -3101,35 +3102,37 @@ const DB = [
 (() => {
   const state = {
     data: [...DB],
-    sortConfig: { key: null, direction: 'asc' }
+    sortConfig: { key: null, direction: "asc" },
   };
 
   const getSortIcon = (columnKey) => {
     const isActive = state.sortConfig.key === columnKey;
-    const opacityClass = isActive ? '' : 'inactive';
-    
+    const opacityClass = isActive ? "" : "inactive";
+
     return `<img src="static/images/sort.svg" width="16" height="16" class="sort-icon ${opacityClass}" alt="Сортировка">`;
   };
 
   const renderTable = () => {
     const tableRoot = document.getElementById("table-root");
-    
+
     const html = `
       <table class="table table-striped table-bordered align-middle">
         <thead class="text-center">
           <tr>
             <th data-sort="brand" class="sortable-col" role="button" title="Сортировать по бренду">
-              Бренд ${getSortIcon('brand')}
+              Бренд ${getSortIcon("brand")}
             </th>
             <th>Вкус</th>
             <th data-sort="rating" class="sortable-col" role="button" style="width: 10%" title="Сортировать по оценке">
-              Оценка ${getSortIcon('rating')}
+              Оценка ${getSortIcon("rating")}
             </th>
             <th>Описание</th>
           </tr>
         </thead>
         <tbody>
-          ${state.data.map(item => `
+          ${state.data
+            .map(
+              (item) => `
             <tr>
               <td>${item.brand}</td>
               <td>${item.flavor}</td>
@@ -3138,7 +3141,9 @@ const DB = [
               </td>
               <td>${item.description}</td>
             </tr>
-          `).join('')}
+          `,
+            )
+            .join("")}
         </tbody>
       </table>
     `;
@@ -3149,26 +3154,24 @@ const DB = [
   };
 
   const handleSort = (key) => {
-    let direction = 'asc';
-    
-    if (state.sortConfig.key === key && state.sortConfig.direction === 'asc') {
-      direction = 'desc';
+    let direction = "asc";
+
+    if (state.sortConfig.key === key && state.sortConfig.direction === "asc") {
+      direction = "desc";
     }
-    
+
     state.sortConfig = { key, direction };
 
     state.data.sort((a, b) => {
       const valA = a[key];
       const valB = b[key];
 
-      if (typeof valA === 'string' && typeof valB === 'string') {
-        return direction === 'asc' 
-          ? valA.localeCompare(valB) 
-          : valB.localeCompare(valA);
+      if (typeof valA === "string" && typeof valB === "string") {
+        return direction === "asc" ? valA.localeCompare(valB) : valB.localeCompare(valA);
       }
 
-      if (valA < valB) return direction === 'asc' ? -1 : 1;
-      if (valA > valB) return direction === 'asc' ? 1 : -1;
+      if (valA < valB) return direction === "asc" ? -1 : 1;
+      if (valA > valB) return direction === "asc" ? 1 : -1;
       return 0;
     });
 
@@ -3176,9 +3179,9 @@ const DB = [
   };
 
   const bindEvents = () => {
-    const headers = document.querySelectorAll('th.sortable-col');
-    headers.forEach(header => {
-      header.addEventListener('click', (e) => {
+    const headers = document.querySelectorAll("th.sortable-col");
+    headers.forEach((header) => {
+      header.addEventListener("click", (e) => {
         const sortKey = e.currentTarget.dataset.sort;
         handleSort(sortKey);
       });
