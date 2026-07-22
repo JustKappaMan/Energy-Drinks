@@ -16,7 +16,8 @@
     "format": "biome format --write .",
     "lint": "biome lint .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "prepare": "husky",
+    "start": "serve src"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.5",
