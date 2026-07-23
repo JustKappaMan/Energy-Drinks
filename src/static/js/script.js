@@ -15,57 +15,62 @@ const escapeHTML = (str) => {
     .replace(/'/g, "&#039;");
 };
 
-const getSortIcon = (columnKey) => {
-  const isActive = state.sortConfig.key === columnKey;
-  const opacityClass = isActive ? "" : "inactive";
-
-  return `<img src="static/images/sort.svg" width="16" height="16" class="sort-icon ${opacityClass}" alt="Сортировка">`;
-};
-
-const getAriaSort = (columnKey) => {
-  if (state.sortConfig.key !== columnKey) return "none";
-  return state.sortConfig.direction === "asc" ? "ascending" : "descending";
-};
-
-const renderTable = () => {
+const initTable = () => {
   const tableRoot = document.getElementById("table-root");
-
-  const html = `
+  tableRoot.innerHTML = `
     <div class="table-responsive shadow-sm">
       <table class="table table-striped table-bordered align-middle mb-0">
-        <thead class="text-center text-nowrap">
+        <thead class="text-center text-nowrap" id="table-head">
           <tr>
-            <th data-sort="brand" class="sortable-col" role="button" tabindex="0" aria-sort="${getAriaSort("brand")}" title="Сортировать по бренду">
-              Бренд ${getSortIcon("brand")}
+            <th data-sort="brand" class="sortable-col" role="button" tabindex="0" title="Сортировать по бренду">
+              Бренд <img src="static/images/sort.svg" width="16" height="16" class="sort-icon inactive" alt="Сортировка">
             </th>
             <th>Вкус</th>
-            <th data-sort="rating" class="sortable-col" role="button" tabindex="0" aria-sort="${getAriaSort("rating")}" title="Сортировать по оценке" style="min-width: 120px;">
-              Оценка ${getSortIcon("rating")}
+            <th data-sort="rating" class="sortable-col" role="button" tabindex="0" title="Сортировать по оценке" style="min-width: 120px;">
+              Оценка <img src="static/images/sort.svg" width="16" height="16" class="sort-icon inactive" alt="Сортировка">
             </th>
             <th style="min-width: 250px;">Описание</th>
           </tr>
         </thead>
-        <tbody>
-          ${state.data
-            .map(
-              (item) => `
-          <tr>
-            <td class="text-nowrap">${escapeHTML(item.brand)}</td>
-            <td>${escapeHTML(item.flavor)}</td>
-            <td class="text-center text-nowrap">
-                <span role="img" aria-label="Оценка: ${item.rating} из 5">${"⭐".repeat(item.rating)}</span>
-            </td>
-            <td>${escapeHTML(item.description)}</td>
-          </tr>
-        `,
-            )
-            .join("")}
-        </tbody>
+        <tbody id="table-body"></tbody>
       </table>
     </div>
   `;
+};
 
-  tableRoot.innerHTML = html;
+const updateHeadersUI = () => {
+  const headers = document.querySelectorAll("#table-head th.sortable-col");
+  headers.forEach((th) => {
+    const key = th.dataset.sort;
+    const icon = th.querySelector(".sort-icon");
+    const isActive = state.sortConfig.key === key;
+
+    if (isActive) {
+      th.setAttribute("aria-sort", state.sortConfig.direction === "asc" ? "ascending" : "descending");
+      icon.classList.remove("inactive");
+    } else {
+      th.removeAttribute("aria-sort");
+      icon.classList.add("inactive");
+    }
+  });
+};
+
+const renderBody = () => {
+  const tbody = document.getElementById("table-body");
+  tbody.innerHTML = state.data
+    .map(
+      (item) => `
+      <tr>
+        <td class="text-nowrap">${escapeHTML(item.brand)}</td>
+        <td>${escapeHTML(item.flavor)}</td>
+        <td class="text-center text-nowrap">
+          <span role="img" aria-label="Оценка: ${item.rating} из 5">${"⭐".repeat(item.rating)}</span>
+        </td>
+        <td>${escapeHTML(item.description)}</td>
+      </tr>
+    `,
+    )
+    .join("");
 };
 
 const handleSort = (key) => {
@@ -92,7 +97,8 @@ const handleSort = (key) => {
     return 0;
   });
 
-  renderTable();
+  updateHeadersUI();
+  renderBody();
 };
 
 const initEvents = () => {
@@ -116,5 +122,6 @@ const initEvents = () => {
   });
 };
 
+initTable();
 initEvents();
-renderTable();
+renderBody();
