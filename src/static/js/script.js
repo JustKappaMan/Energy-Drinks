@@ -5,6 +5,16 @@ const state = {
   sortConfig: { key: null, direction: "asc" },
 };
 
+const escapeHTML = (str) => {
+  if (typeof str !== "string") return str;
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+};
+
 const getSortIcon = (columnKey) => {
   const isActive = state.sortConfig.key === columnKey;
   const opacityClass = isActive ? "" : "inactive";
@@ -40,12 +50,12 @@ const renderTable = () => {
             .map(
               (item) => `
           <tr>
-            <td class="text-nowrap">${item.brand}</td>
-            <td>${item.flavor}</td>
+            <td class="text-nowrap">${escapeHTML(item.brand)}</td>
+            <td>${escapeHTML(item.flavor)}</td>
             <td class="text-center text-nowrap">
                 <span role="img" aria-label="Оценка: ${item.rating} из 5">${"⭐".repeat(item.rating)}</span>
             </td>
-            <td>${item.description}</td>
+            <td>${escapeHTML(item.description)}</td>
           </tr>
         `,
             )
