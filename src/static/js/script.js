@@ -104,22 +104,18 @@ const handleSort = (key) => {
 const initEvents = () => {
   const tableRoot = document.getElementById("table-root");
 
-  tableRoot.addEventListener("click", (e) => {
+  const onAction = (e) => {
     const header = e.target.closest("th.sortable-col");
-    if (header) {
+    if (!header) return;
+
+    if (e.type === "click" || (e.type === "keydown" && (e.key === "Enter" || e.key === " "))) {
+      e.preventDefault();
       handleSort(header.dataset.sort);
     }
-  });
+  };
 
-  tableRoot.addEventListener("keydown", (e) => {
-    if (e.key === "Enter" || e.key === " ") {
-      const header = e.target.closest("th.sortable-col");
-      if (header) {
-        e.preventDefault();
-        handleSort(header.dataset.sort);
-      }
-    }
-  });
+  tableRoot.addEventListener("click", onAction);
+  tableRoot.addEventListener("keydown", onAction);
 };
 
 initTable();
