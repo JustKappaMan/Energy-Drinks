@@ -650,8 +650,8 @@ export const DB = [
   },
   {
     id: 93,
-    brand: "Bizon Black",
-    flavor: "Original",
+    brand: "Bizon",
+    flavor: "Black Original",
     rating: 2,
     description: "Посредственная интерпретация классического вкуса.",
   },
@@ -989,7 +989,7 @@ export const DB = [
   },
   {
     id: 141,
-    brand: "Bizon Black",
+    brand: "Bizon",
     flavor: "Raspberry",
     rating: 2,
     description: "Тот же «Tornado Energy Razzberry», но с более химозным и менее насыщенным вкусом.",
@@ -3099,14 +3099,14 @@ export const DB = [
     id: 441,
     brand: "Bizon",
     flavor: "Lemon Lemongrass",
-    rating: 2,
-    description: "Душный, неприятный и водянистый на послевкусии вкус лимона. Некислый.",
+    rating: 1,
+    description: "Душный, неприятный и водянистый вкус лимона. Некислый.",
   },
   {
     id: 442,
     brand: "Bizon",
     flavor: "Mango Maracuja",
-    rating: 2,
+    rating: 1,
     description: "Неприятный и водянистый мультифруктовый вкус.",
   },
   {
