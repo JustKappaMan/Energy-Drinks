@@ -3109,4 +3109,11 @@ export const DB = [
     rating: 2,
     description: "Неприятный и водянистый мультифруктовый вкус.",
   },
+  {
+    id: 443,
+    brand: "Double Pull",
+    flavor: "Сладкая Малина",
+    rating: 2,
+    description: "Водянистый вкус малинового варенья.",
+  },
 ];
