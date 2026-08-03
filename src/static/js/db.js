@@ -3095,4 +3095,11 @@ export const DB = [
     rating: 3,
     description: "Вкус сладкого мармелада.",
   },
+  {
+    id: 441,
+    brand: "Bizon",
+    flavor: "Lemon Lemongrass",
+    rating: 2,
+    description: "Душный, неприятный и водянистый на послевкусии вкус лимона. Некислый.",
+  },
 ];
