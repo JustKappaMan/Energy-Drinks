@@ -3102,4 +3102,11 @@ export const DB = [
     rating: 2,
     description: "Душный, неприятный и водянистый на послевкусии вкус лимона. Некислый.",
   },
+  {
+    id: 442,
+    brand: "Bizon",
+    flavor: "Mango Maracuja",
+    rating: 2,
+    description: "Неприятный и водянистый мультифруктовый вкус.",
+  },
 ];
