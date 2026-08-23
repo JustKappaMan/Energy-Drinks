@@ -3123,4 +3123,11 @@ export const DB = [
     rating: 2,
     description: "Водянистый тропический вкус.",
   },
+  {
+    id: 445,
+    brand: "Adrenaline Rush",
+    flavor: "Flavour Edition Berry Energy",
+    rating: 4,
+    description: "Приятные вкусы черной смородины и малины. Соки в составе.",
+  },
 ];
