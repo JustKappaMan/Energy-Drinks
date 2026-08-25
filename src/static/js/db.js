@@ -3130,4 +3130,11 @@ export const DB = [
     rating: 4,
     description: "Приятные вкусы черной смородины и малины. Соки в составе.",
   },
+  {
+    id: 446,
+    brand: "Red Bull",
+    flavor: "Summer Edition Sudachi Lime",
+    rating: 3,
+    description: "Приятные вкус и аромат лайма.",
+  },
 ];
