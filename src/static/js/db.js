@@ -3137,4 +3137,11 @@ export const DB = [
     rating: 3,
     description: "Приятные вкус и аромат лайма.",
   },
+  {
+    id: 447,
+    brand: "Volt Energy",
+    flavor: "Яблоко-Крыжовник",
+    rating: 2,
+    description: "Не особо приятный кислый травянистый вкус.",
+  },
 ];
