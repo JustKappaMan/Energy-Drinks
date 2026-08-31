@@ -3144,4 +3144,11 @@ export const DB = [
     rating: 2,
     description: "Не особо приятный кислый травянистый вкус.",
   },
+  {
+    id: 448,
+    brand: "Adrenaline Rush",
+    flavor: "Flavour Edition Tropical Energy",
+    rating: 2,
+    description: "Тот же «Adrenaline Rush Original», но с дополнительной тропической сладостью.",
+  },
 ];
