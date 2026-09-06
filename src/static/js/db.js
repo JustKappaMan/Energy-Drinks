@@ -3151,4 +3151,11 @@ export const DB = [
     rating: 2,
     description: "Тот же «Adrenaline Rush Original», но с дополнительной тропической сладостью.",
   },
+  {
+    id: 449,
+    brand: "Volt Energy",
+    flavor: "Красный Апельсин - Лимон",
+    rating: 2,
+    description: "Не особо приятный вкус грейпфрута с легкой горчинкой.",
+  },
 ];
