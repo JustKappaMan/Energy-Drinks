@@ -3158,4 +3158,11 @@ export const DB = [
     rating: 2,
     description: "Не особо приятный вкус грейпфрута с легкой горчинкой.",
   },
+  {
+    id: 450,
+    brand: "PULSEUP",
+    flavor: "Pomegranate",
+    rating: 3,
+    description: "Насыщенный, терпкий и кислый вкус граната.",
+  },
 ];
