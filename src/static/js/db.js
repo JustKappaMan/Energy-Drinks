@@ -3165,4 +3165,11 @@ export const DB = [
     rating: 3,
     description: "Насыщенный, терпкий и кислый вкус граната.",
   },
+  {
+    id: 451,
+    brand: "Adrenaline Rush",
+    flavor: "Flavour Edition Melon-Lime-Mint",
+    rating: 3,
+    description: "Приятный дынный вкус с послевкусием мохито.",
+  },
 ];
