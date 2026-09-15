@@ -3172,4 +3172,11 @@ export const DB = [
     rating: 3,
     description: "Приятный дынный вкус с послевкусием мохито.",
   },
+  {
+    id: 452,
+    brand: "Adrenaline Rush",
+    flavor: "Mystic Energy",
+    rating: 2,
+    description: "Неприятный вкус вишни с ярким послевкусием корицы.",
+  },
 ];
