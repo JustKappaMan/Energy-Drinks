@@ -1722,14 +1722,14 @@ export const DB = [
   {
     id: 245,
     brand: "Actibo",
-    flavor: "Hard Energy",
+    flavor: "Hard Energy Тутти-Фрутти",
     rating: 2,
     description: "Приторный вкус дюшес. Словно грушевые леденцы.",
   },
   {
     id: 246,
     brand: "Actibo",
-    flavor: "Vita Energy",
+    flavor: "Vita Energy Яблочный Микс",
     rating: 3,
     description: "Вкус сока из зелёных яблок.",
   },
