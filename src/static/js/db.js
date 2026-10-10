@@ -3179,4 +3179,11 @@ export const DB = [
     rating: 2,
     description: "Неприятный вкус вишни с ярким послевкусием корицы.",
   },
+  {
+    id: 453,
+    brand: "Jaguar",
+    flavor: "Extra Urban Energy - Персик-Ананас-Гуава",
+    rating: 4,
+    description: "Насыщенный вкус персика, приятный вкус ананаса, нотки гуавы.",
+  },
 ];
