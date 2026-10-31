@@ -8,8 +8,8 @@
 
 ## Благодарности
 
-* [Иконка сортировки](https://www.svgrepo.com/svg/2287/sort) — [SVG Repo](https://www.svgrepo.com/)
-* [Фавиконка](https://www.flaticon.com/free-icon/flash_2511629) — [nawicon](https://www.flaticon.com/authors/nawicon)
+- [Иконка сортировки](https://www.svgrepo.com/svg/2287/sort) — [SVG Repo](https://www.svgrepo.com/)
+- [Фавиконка](https://www.flaticon.com/free-icon/flash_2511629) — [nawicon](https://www.flaticon.com/authors/nawicon)
 
 ## Лицензия
 
