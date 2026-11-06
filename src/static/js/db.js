@@ -3214,4 +3214,11 @@ export const DB = [
     rating: 2,
     description: "Блеклая реализация классического вкуса энергетика с кислинкой.",
   },
+  {
+    id: 458,
+    brand: "Monster Energy",
+    flavor: "Ultra Punk Punch",
+    rating: 4,
+    description: "Вкус спелой вишни, переходящий во вкус фруктового пунша.",
+  },
 ];
