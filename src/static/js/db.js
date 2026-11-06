@@ -191,7 +191,7 @@ export const DB = [
   {
     id: 28,
     brand: "Monster Energy",
-    flavor: "Mango Loco",
+    flavor: "Juiced Mango Loco",
     rating: 5,
     description: "Много сока манго. Сладость сменяется кислинкой. Приятные вкус и консистенция.",
   },
@@ -227,7 +227,7 @@ export const DB = [
   {
     id: 33,
     brand: "Monster Energy",
-    flavor: "Ripper",
+    flavor: "Juiced Ripper",
     rating: 2,
     description: "Мультифруктовый вкус, нотки ананаса на послевкусии. Очень сладкий.",
   },
@@ -262,14 +262,14 @@ export const DB = [
   {
     id: 38,
     brand: "Monster Energy",
-    flavor: "Monarch",
+    flavor: "Juiced Monarch",
     rating: 5,
     description: "Нежный вкус персика. Именно персика, а не персикового сока. Слегка пюреобразная консистенция.",
   },
   {
     id: 39,
     brand: "Monster Energy",
-    flavor: "Khaotic",
+    flavor: "Juiced Khaotic",
     rating: 3,
     description:
       "Вкус апельсина, персика и других фруктов. Менее пюреобразный и более сладкий чем «Monster Energy Monarch».",
@@ -870,7 +870,7 @@ export const DB = [
   {
     id: 124,
     brand: "Monster Energy",
-    flavor: "Aussie Lemonade",
+    flavor: "Juiced Aussie Lemonade",
     rating: 4,
     description: "Менее сладкий и более натуральный «Sprite».",
   },
@@ -2023,7 +2023,7 @@ export const DB = [
   {
     id: 288,
     brand: "Monster Energy",
-    flavor: "Bad Apple",
+    flavor: "Juiced Bad Apple",
     rating: 4,
     description: "Вкус кислого яблочного сока. Груша, киви и вишня на послевкусии.",
   },
@@ -2089,7 +2089,7 @@ export const DB = [
   {
     id: 297,
     brand: "Monster Energy",
-    flavor: "Rio Punch",
+    flavor: "Juiced Rio Punch",
     rating: 4,
     description: "Папайя доминирует. Необычный тропический вкус. Приятная сладость.",
   },
