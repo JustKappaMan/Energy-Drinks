@@ -3256,4 +3256,11 @@ export const DB = [
     rating: 3,
     description: "Очень сладкий и сливочный кофе с ноткой ванили.",
   },
+  {
+    id: 464,
+    brand: "Monster Energy",
+    flavor: "Java Café Latte",
+    rating: 4,
+    description: "Умеренно сладкий и очень молочный кофе.",
+  },
 ];
