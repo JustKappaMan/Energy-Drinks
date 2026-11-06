@@ -3242,4 +3242,11 @@ export const DB = [
     rating: 3,
     description: "Слегка водянистый вкус маракуйи.",
   },
+  {
+    id: 462,
+    brand: "Monster Energy",
+    flavor: "Ultra Red White & Blue Razz",
+    rating: 2,
+    description: "Слегка водянистый вкус голубой малины.",
+  },
 ];
