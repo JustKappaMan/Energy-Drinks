@@ -3207,4 +3207,11 @@ export const DB = [
     rating: 2,
     description: "Блеклая реализация классического вкуса энергетика.",
   },
+  {
+    id: 457,
+    brand: "No Limit",
+    flavor: "Original",
+    rating: 2,
+    description: "Блеклая реализация классического вкуса энергетика с кислинкой.",
+  },
 ];
