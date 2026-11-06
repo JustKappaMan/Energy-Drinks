@@ -3200,4 +3200,11 @@ export const DB = [
     rating: 2,
     description: "Водянистый и неприятный вкус голубики.",
   },
+  {
+    id: 456,
+    brand: "Monster Energy",
+    flavor: "Absolute Zero",
+    rating: 2,
+    description: "Блеклая реализация классического вкуса энергетика.",
+  },
 ];
