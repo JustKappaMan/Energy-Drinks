@@ -3249,4 +3249,11 @@ export const DB = [
     rating: 2,
     description: "Слегка водянистый вкус голубой малины.",
   },
+  {
+    id: 463,
+    brand: "Monster Energy",
+    flavor: "Java Mean Bean",
+    rating: 3,
+    description: "Очень сладкий и сливочный кофе с ноткой ванили.",
+  },
 ];
