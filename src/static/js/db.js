@@ -3235,4 +3235,11 @@ export const DB = [
     rating: 3,
     description: "Вкус оригинального «Monster Energy» с послевкусием клубничного леденца.",
   },
+  {
+    id: 461,
+    brand: "Monster Energy",
+    flavor: "Ultra Wild Passion",
+    rating: 3,
+    description: "Слегка водянистый вкус маракуйи.",
+  },
 ];
