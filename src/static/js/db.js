@@ -3221,4 +3221,11 @@ export const DB = [
     rating: 4,
     description: "Вкус спелой вишни, переходящий во вкус фруктового пунша.",
   },
+  {
+    id: 459,
+    brand: "Monster Energy",
+    flavor: "Juice Strawberry Lemonade",
+    rating: 5,
+    description: "Вкус натурального лимонада с приятным клубничным послевкусием.",
+  },
 ];
