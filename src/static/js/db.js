@@ -3228,4 +3228,11 @@ export const DB = [
     rating: 5,
     description: "Вкус натурального лимонада с приятным клубничным послевкусием.",
   },
+  {
+    id: 460,
+    brand: "Monster Energy",
+    flavor: "Starwberry Shot",
+    rating: 3,
+    description: "Вкус оригинального «Monster Energy» с послевкусием клубничного леденца.",
+  },
 ];
